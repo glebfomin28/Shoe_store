@@ -1,0 +1,19 @@
+
+.cart__center {
+    text-align: center;
+}
+
+.cart__table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #a0b2be;
+}
+
+th {
+    border: 1px solid #a0b2be;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}

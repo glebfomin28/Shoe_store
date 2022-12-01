@@ -1,0 +1,25 @@
+.filter {
+    margin: 0 auto 30px;
+    padding: 0 8px;
+    display: flex;
+
+    width: 800px;
+    color: #717d86;
+    font-size: 20px;
+}
+
+.filter__item,
+.filter__item__active {
+    margin: 0 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.filter__item__active {
+    color: red;
+}
+
+
+.filter__item:hover {
+    color: red;
+}

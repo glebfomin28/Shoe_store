@@ -1,0 +1,77 @@
+.footer {
+    flex-shrink: 0;
+    margin-top: 20px;
+    padding: 0 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f6f7f9;
+}
+
+
+.footer__naw {
+    margin-left: 20px;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+}
+
+.footer__naw__item {
+    margin: 6px 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+.footer__naw__item:hover {
+    color: #333333;
+}
+
+.footer__pay {
+    width: 38%;
+}
+
+.footer__pay__systems {
+    margin: 12px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__pay__paypal,
+.footer__pay__masterCard,
+.footer__pay__visa,
+.footer__pay__yandex,
+.footer__pay__webmoney,
+.footer__pay__qiwi {
+    width: 46px;
+    height: 28px;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-image: url("../../../img/footer-sprite.png");
+}
+
+.footer__pay__paypal {
+    background-position: -2px -6px;
+}
+.footer__pay__masterCard {
+    background-position: -54px -8px;
+}
+.footer__pay__visa {
+    background-position: -104px -8px;
+}
+.footer__pay__yandex {
+    background-position: -154px -8px;
+}
+.footer__pay__webmoney {
+    background-position: -2px -46px;
+}
+.footer__pay__qiwi {
+    background-position: -52px -46px;
+}
+
+.footer__contacts {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

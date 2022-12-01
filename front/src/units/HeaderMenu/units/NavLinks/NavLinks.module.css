@@ -1,0 +1,23 @@
+
+.naw {
+    padding: 0 8px;
+    display: flex;
+    min-width: 350px;
+}
+
+.naw__item {
+    margin: 20px 8px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.naw__item__active {
+    margin: 20px 8px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+}
+
+.naw__item:hover {
+    color: #333333;
+}

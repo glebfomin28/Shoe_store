@@ -1,0 +1,43 @@
+.cartOrder {
+    position: relative;
+}
+
+.cartOrder__center {
+    text-align: center;
+}
+
+.cartOrder__form {
+    margin: auto;
+    padding: 30px;
+    width: 500px;
+    height: 260px;
+    border: 1px solid #97a7a9;
+}
+
+.cartOrder__form__input {
+    margin: 15px 0 20px;
+    padding: 0 10px;
+    width: 95%;
+    height: 30px;
+    border: 1px solid #b2c3c4;
+    border-radius: 5px;
+    outline: none;
+}
+
+.cartOrder__form__button {
+    margin-top: 20px;
+    padding: 8px 15px;
+    background-color: white;
+    color: #2b3131;
+    border: 2px solid #899698;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cartOrder__error {
+   margin: 15px auto;
+    width: 500px;
+    font-size: 18px;
+    color: red;
+}

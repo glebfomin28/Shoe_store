@@ -1,0 +1,29 @@
+.modal {
+    position: absolute;
+    z-index: 25;
+    top: 70px;
+    bottom: 220px;
+    left: 0;
+    right: 0;
+}
+
+.modal__window {
+    margin: 400px auto;
+    padding: 15px;
+    width: 460px;
+    height:100px;
+    background-color: #dffbdf;
+    border: 5px solid #595959;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.modal__window__button {
+    margin-top: 30px;
+    padding: 5px 10px;
+    background-color: #fdfdfe;
+    border: 1px solid #595959;
+    border-radius: 5px;
+    cursor: pointer;
+}

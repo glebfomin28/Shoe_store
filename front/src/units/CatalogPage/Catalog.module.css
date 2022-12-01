@@ -1,0 +1,21 @@
+.catalog {
+    text-align: center;
+}
+
+.catalog__input {
+    margin: 0 0 25px;
+    width: 950px;
+    height: 25px;
+    border-radius: 50px;
+    border: none;
+    padding: 5px 15px;
+    box-shadow: 0 0 7px 2px rgba(34, 60, 80, 0.18);
+    outline: none;
+}
+
+.catalog__title {
+    margin: 25px 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+
