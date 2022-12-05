@@ -1,25 +1,17 @@
 import React, {useEffect} from 'react';
 import styles from "./CatalogTabs.module.css";
 import {useDispatch, useSelector} from "react-redux";
-import {SELECTOR_SHOES_LIST, setCatalogTabs, setCategories} from "../../store/reducers/shoesList";
+import {getCategories} from "../../fetch";
+import {SELECTOR_SHOES_LIST, setCatalogTabs, setCategories} from "../../store/reducers";
 
 export const CatalogTabs = () => {
 
   const { categories, catalogTabs } = useSelector(SELECTOR_SHOES_LIST)
+
   const d = useDispatch()
 
-  const getCategoryList = () => {
-    try {
-      fetch("http://localhost:7070/api/categories")
-        .then( (res) => res.json() )
-        .then( (json) => d(setCategories(json)) )
-
-    } catch (e) {
-      return console.log(e)
-    }
-  }
   useEffect(() => {
-    getCategoryList()
+    getCategories(d, setCategories)
   },[])
 
   const printFilterCell = categories.map(el =>

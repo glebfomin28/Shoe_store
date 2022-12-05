@@ -12,7 +12,10 @@ const buyItemSlice = createSlice({
       state.searchValue = action.payload
     },
     setCatalogValue: (state, action) => {
-      state.catalogValue = action.payload
+      state.catalogValue =  action.payload
+    },
+    getSearchValue: (state, action) => {
+      state.catalogValue =  state.searchValue
     },
   },
 })
@@ -20,6 +23,7 @@ const buyItemSlice = createSlice({
 export const {
   setSearchValue,
   setCatalogValue,
+  getSearchValue
 } = buyItemSlice.actions
 
 export const SELECTOR_SEARCH = (state) => state.search

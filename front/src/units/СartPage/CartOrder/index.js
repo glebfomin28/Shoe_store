@@ -10,6 +10,7 @@ import {
 } from "../../../store/reducers";
 import {useDispatch, useSelector} from "react-redux";
 import {Preloader} from "../../../components";
+import {orderRegistration} from "../../../fetch";
 
 
 export const CartOrder = () => {
@@ -19,46 +20,32 @@ export const CartOrder = () => {
 
   const [loaded, setLoaded] = useState(false)
 
-  const fetchPost = () => {
-    setLoaded(true)
-    fetch('http://localhost:7070/api/order', {
-      method: 'POST',
-      headers: {
-        'Content-Type':'application/json'
-      },
-      body:  JSON.stringify({
-        "owner": {
-          "phone": phone,
-          "address": address,
-        },
-        "items": [
-          {
-            "id": 1,
-            "price": sumPrice,
-            "count": 1
-          }
-        ]
-      }),
-    })
-      .then( (response) => {
-        if (response.status >= 200 && response.status < 300) {
-          setLoaded(false)
-          d(setSuccess(1))
-          d(setPhone(''))
-          d(setAddress(''))
-          d(setCheckbox(false))
-          d(deleteOrderList())
-        }
-        return response;
-      })
-      .catch(function (error) {
-        setSuccess(-1)
-        console.log('Request failed', error);
-      });
+  const jsonOrderObj = {
+    "owner": {
+      "phone": phone,
+      "address": address,
+    },
+    "items": [
+      {
+        "id": 1,
+        "price": sumPrice,
+        "count": 1
+      }
+    ]
   }
+
   const sendOrder = () => {
-    if (phone !== '' && address !== '' && checkbox) {
-      fetchPost()
+    if (phone.trim () !== '' && address.trim () !== '' && checkbox) {
+      orderRegistration(
+        d,
+        setSuccess,
+        setPhone,
+        setAddress,
+        setCheckbox,
+        deleteOrderList,
+        setLoaded,
+        jsonOrderObj
+      )
     }
   }
 

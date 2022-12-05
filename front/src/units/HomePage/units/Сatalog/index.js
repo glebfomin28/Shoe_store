@@ -5,7 +5,6 @@ import { CatalogList, CatalogTabs } from "../../../../components";
 export const Сatalog = () => {
 
 
-
   return (
     <div className={styles.catalog}>
       <h4 className={styles.catalog__title}>Каталог</h4>

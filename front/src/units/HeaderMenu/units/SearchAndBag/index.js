@@ -4,6 +4,7 @@ import searchIcon from "../../../../img/search-icon.svg";
 import bag from "../../../../img/bag.png";
 import {useDispatch, useSelector} from "react-redux";
 import {
+  getSearchValue,
   SELECTOR_ORDER_ITEM,
   SELECTOR_SEARCH, setCartNum,
   setCatalogValue,
@@ -23,10 +24,11 @@ export const SearchAndBag = () => {
   const onSearch = () => {
     setActionSearch(p => !p)
     if (actionSearch && searchValue !== '') {
-      d(setCatalogValue(searchValue))
+      d(getSearchValue())
       navigate("/catalog.html")
     }
-    d(setSearchValue(''))
+    if (!actionSearch) d(setSearchValue(''))
+
   }
 
   useEffect(() => {

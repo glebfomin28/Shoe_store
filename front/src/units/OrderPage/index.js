@@ -4,6 +4,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {SELECTOR_ORDER_ITEM, setCartNum, setInfoItem, setOrderList} from "../../store/reducers";
 import {Preloader} from "../../components";
 import {useNavigate} from "react-router-dom";
+import {getInfoItem} from "../../fetch";
 
 
 export const OrderPage = () => {
@@ -17,20 +18,6 @@ export const OrderPage = () => {
   const [size, setSize] = useState(null)
   const [checkSize, setCheckSize] = useState(false)
 
-  const getInfoItem = () => {
-    try {
-      fetch(`http://localhost:7070/api/items/${idItem}`)
-        .then( (res) => res.json() )
-        .then( (json) => {
-          onCheckSize(json)
-          return d(setInfoItem(json))
-        } )
-      setLoader(false)
-    } catch (e) {
-      return console.log(e)
-    }
-  }
-
   const onCheckSize = (arr) => {
     for (let i = 0; i < arr.sizes.length; i++) {
       if (arr.sizes[i].avalible) {
@@ -39,9 +26,8 @@ export const OrderPage = () => {
     }
   }
 
-
   useEffect(() => {
-    getInfoItem()
+    getInfoItem(d, setInfoItem, idItem, onCheckSize, setLoader)
   }, [idItem])
   console.log(orderList)
 

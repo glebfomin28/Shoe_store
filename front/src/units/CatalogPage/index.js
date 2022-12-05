@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import styles from './Catalog.module.css';
 import {CatalogList, CatalogTabs} from "../../components";
 import {useDispatch, useSelector} from "react-redux";
-import {SELECTOR_SEARCH, setAddCatalog, setCatalog, setCatalogValue} from "../../store/reducers";
+import {SELECTOR_SEARCH, setCatalogValue} from "../../store/reducers";
 
 export const CatalogPage = () => {
   const { catalogValue } = useSelector(SELECTOR_SEARCH)

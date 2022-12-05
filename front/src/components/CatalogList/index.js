@@ -10,6 +10,7 @@ import {
   setCatalog,
   setCatalogFilter
 } from "../../store/reducers";
+import {getCatalogList, searchCatalogItems} from "../../fetch";
 
 export const CatalogList = () => {
 
@@ -18,40 +19,23 @@ export const CatalogList = () => {
 
   const d = useDispatch()
 
-  const getCategoryList = (URL) => {
-    try {
-      fetch(URL)
-        .then( (res) => res.json() )
-        .then( (json) => d(setCatalog(json)) )
-
-    } catch (e) {
-      return console.log(e)
-    }
-  }
   useEffect(() => {
-    if (catalogTabs === 11) {
-      getCategoryList(`http://localhost:7070/api/items`)
-    } else {
-      getCategoryList(`http://localhost:7070/api/items?categoryId=${catalogTabs}`)
+    if (catalogValue === '') {
+      if (catalogTabs === 11) {
+        getCatalogList(d, setCatalog, `http://localhost:7070/api/items`)
+      } else {
+        getCatalogList(d, setCatalog,`http://localhost:7070/api/items?categoryId=${catalogTabs}`)
+      }
     }
 
   },[catalogTabs])
 
-
-  const searchCatalogItems = () => {
-    try {
-      fetch(`http://localhost:7070/api/items?q=${catalogValue}`)
-        .then( (res) => res.json() )
-        .then( (json) => {
-          d(setCatalogFilter(json))
-        })
-    } catch (e) {
-      return console.log(e)
-    }
-  }
-
   useEffect(() => {
-    if (catalogValue !== '') searchCatalogItems()
+    const Debounce = setTimeout(() => {
+      searchCatalogItems(d, setCatalogFilter, catalogValue)
+    }, 450)
+
+    return () => clearTimeout(Debounce)
   }, [catalogValue, catalogTabs])
 
 

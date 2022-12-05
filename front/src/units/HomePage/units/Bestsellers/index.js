@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './styles/Bestsllers.module.css'
 import {ItemShoes, Preloader} from "../../../../components";
 import {useSelector} from "react-redux";
-import {SELECTOR_SHOES_LIST} from "../../../../store/reducers/shoesList";
+import {SELECTOR_SHOES_LIST} from "../../../../store/reducers";
 
 export const Bestsellers = () => {
   const { bestseller } = useSelector(SELECTOR_SHOES_LIST)

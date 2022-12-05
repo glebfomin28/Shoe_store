@@ -17,6 +17,7 @@ export const CartPage = () => {
   }, [orderList])
 
   useEffect(() => {
+    console.log('')
     return () => d(setSuccess(0))
   }, [])
 
