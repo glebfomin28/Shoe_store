@@ -38,7 +38,7 @@ export const getCatalogList = (dispatch, reducer, URL) => {
 
 // каталог: поиск
 export const searchCatalogItems = (dispatch, reducer, value) => {
-  if (value === '') return
+  // if (value === '') return
   try {
     fetch(`http://localhost:7070/api/items?q=${value}`)
       .then( (res) => res.json() )

@@ -5,10 +5,12 @@ import {Preloader} from "../Preloader";
 import {useDispatch, useSelector} from "react-redux";
 import {LoadMore} from "../LoadMore";
 import {
+  cleaningValues,
+  getSearchValue,
   SELECTOR_SEARCH,
   SELECTOR_SHOES_LIST,
   setCatalog,
-  setCatalogFilter
+  setCatalogFilter,
 } from "../../store/reducers";
 import {getCatalogList, searchCatalogItems} from "../../fetch";
 
@@ -19,21 +21,18 @@ export const CatalogList = () => {
 
   const d = useDispatch()
 
-  useEffect(() => {
-    if (catalogValue === '') {
-      if (catalogTabs === 11) {
-        getCatalogList(d, setCatalog, `http://localhost:7070/api/items`)
-      } else {
-        getCatalogList(d, setCatalog,`http://localhost:7070/api/items?categoryId=${catalogTabs}`)
-      }
-    }
-
-  },[catalogTabs])
-
-  useEffect(() => {
+   useEffect(() => {
     const Debounce = setTimeout(() => {
-      searchCatalogItems(d, setCatalogFilter, catalogValue)
-    }, 450)
+      if(catalogValue !== '') {
+        searchCatalogItems(d, setCatalogFilter, catalogValue)
+      } else {
+        if (catalogTabs === 11) {
+          getCatalogList(d, setCatalog, `http://localhost:7070/api/items`)
+        } else {
+          getCatalogList(d, setCatalog,`http://localhost:7070/api/items?categoryId=${catalogTabs}`)
+        }
+      }
+    }, 300)
 
     return () => clearTimeout(Debounce)
   }, [catalogValue, catalogTabs])

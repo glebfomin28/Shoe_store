@@ -7,7 +7,6 @@ import {
   getSearchValue,
   SELECTOR_ORDER_ITEM,
   SELECTOR_SEARCH, setCartNum,
-  setCatalogValue,
   setSearchValue
 } from "../../../../store/reducers";
 import {useNavigate} from "react-router-dom";
@@ -23,12 +22,12 @@ export const SearchAndBag = () => {
 
   const onSearch = () => {
     setActionSearch(p => !p)
-    if (actionSearch && searchValue !== '') {
+    if (actionSearch && searchValue.trim() !== '') {
       d(getSearchValue())
       navigate("/catalog.html")
+
     }
     if (!actionSearch) d(setSearchValue(''))
-
   }
 
   useEffect(() => {
