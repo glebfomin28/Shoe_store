@@ -175,7 +175,7 @@
     "reason": "Спорт",
     "season": "Лето",
     "heelSize": "1 см.",
-    "price": 1500,
+    "price": 6500,
     "sizes": [
       {
         "size": "10 US",
@@ -183,7 +183,7 @@
       },
       {
         "size": "18 US",
-        "avalible": false
+        "avalible": true
       }
     ]
   },
@@ -515,7 +515,7 @@
   {
     "id": 39,
     "category": 15,
-    "title": "Кроссовки для маленьких девчонок",
+    "title": "Детские кроссовки",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sneakers_for_little_girls.jpg"
     ],
@@ -749,7 +749,7 @@
       },
       {
         "size": "18 US",
-        "avalible": false
+        "avalible": true
       }
     ]
   },

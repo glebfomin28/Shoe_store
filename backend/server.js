@@ -7,8 +7,8 @@ const koaBody = require('koa-body');
 
 const categories = JSON.parse(fs.readFileSync('./data/categories.json'));
 const items = JSON.parse(fs.readFileSync('./data/products.json'));
-const topSaleIds = [66, 65, 73];
-const moreCount = 6;
+const topSaleIds = [32, 20, 73, 51, 42, 58];
+// const moreCount = 6;
 
 const itemBasicMapper = item => ({
     id: item.id,
@@ -18,9 +18,9 @@ const itemBasicMapper = item => ({
     images: item.images,
 });
 
-const randomNumber = (start, stop) => {
-    return Math.floor(Math.random() * (stop - start + 1)) + start;
-}
+// const randomNumber = (start, stop) => {
+//     return Math.floor(Math.random() * (stop - start + 1)) + start;
+// }
 
 const fortune = (ctx, body = null, status = 200) => {
     // Uncomment for delay
@@ -67,7 +67,7 @@ router.get('/api/items', async (ctx, next) => {
     const filtered = items
         .filter(o => categoryId === 0 || o.category === categoryId)
         .filter(o => o.title.toLowerCase().includes(q) || o.color.toLowerCase() === q)
-        .slice(offset, offset + moreCount)
+        // .slice(offset, offset + moreCount)
         .map(itemBasicMapper);
 
     return fortune(ctx, filtered);
