@@ -1,56 +1,58 @@
-import React, { useEffect } from 'react';
+import React, {useEffect, useState} from 'react';
 import styles from "./CatalogList.module.css";
 import {ItemShoes} from "../ItemShoes";
 import {Preloader} from "../Preloader";
-import {useDispatch, useSelector} from "react-redux";
-import {LoadMore} from "../LoadMore";
+import {useSelector} from "react-redux";
 import {
-  cleaningValues,
-  getSearchValue,
   SELECTOR_SEARCH,
   SELECTOR_SHOES_LIST,
-  setCatalog,
-  setCatalogFilter,
 } from "../../store/reducers";
-import {getCatalogList, searchCatalogItems} from "../../fetch";
+import {searchCatalogItems} from "../../fetch";
+import {useGetCatalogListQuery} from "../../store/RTKQuery";
+import {LoadMore} from "../LoadMore";
 
 export const CatalogList = () => {
 
-  const { catalogTabs, catalog } = useSelector(SELECTOR_SHOES_LIST)
+  const { catalogTabs } = useSelector(SELECTOR_SHOES_LIST)
   const { catalogValue } = useSelector(SELECTOR_SEARCH)
 
-  const d = useDispatch()
+  const {data = [], isLoading, error} = useGetCatalogListQuery(catalogTabs)
 
-   useEffect(() => {
+  const [catalogData, setCatalogData] = useState([])
+
+  useEffect(() => {
     const Debounce = setTimeout(() => {
       if(catalogValue !== '') {
-        searchCatalogItems(d, setCatalogFilter, catalogValue)
-      } else {
-        if (catalogTabs === 11) {
-          getCatalogList(d, setCatalog, `http://localhost:7070/api/items`)
-        } else {
-          getCatalogList(d, setCatalog,`http://localhost:7070/api/items?categoryId=${catalogTabs}`)
-        }
+        searchCatalogItems(catalogValue, catalogTabs, setCatalogData)
       }
     }, 300)
-
     return () => clearTimeout(Debounce)
   }, [catalogValue, catalogTabs])
 
-
-  const printCatalogList = catalog.map(el =>
+  const printCatalogList = data.map(el =>
     <ItemShoes key={el.id} info={el}/>
+  )
+
+  const printCatalogListSearch = catalogData.map(el =>
+      <ItemShoes key={el.id} info={el}/>
   )
 
   return (
     <>
-      <div className={styles.catalog}>
-        {catalog.length === 0
-          ? <Preloader/>
-          : <>{printCatalogList}</>
-        }
-      </div>
-      {catalog.length === 0? null : <LoadMore/>}
+      {isLoading ? (
+          <Preloader/>
+        ) : error ? (
+            <div>ERROR</div>
+        ) : (
+          <div className={styles.catalog}>
+            {catalogValue === '' ? printCatalogList : printCatalogListSearch}
+          </div>
+      )}
+
+      {catalogData.length === 0 && catalogValue !== '' ? (
+          <div>Ничего не найдено</div>
+        ) : data.length < 6 || catalogData.length < 6? null : <LoadMore/>}
+
     </>
 
   );

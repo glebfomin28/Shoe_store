@@ -3,8 +3,6 @@ import { createSlice } from '@reduxjs/toolkit'
 const buyItemSlice = createSlice({
   name: 'shoesList',
   initialState: {
-    bestseller: [],
-    categories: [],
     catalog: [],
     catalogTabs: 11,
     navLinks: [
@@ -16,9 +14,6 @@ const buyItemSlice = createSlice({
   },
 
   reducers: {
-    setBestseller: (state, action) => {
-      state.bestseller = action.payload
-    },
     setCatalog: (state, action) => {
       state.catalog = action.payload
     },
@@ -33,10 +28,6 @@ const buyItemSlice = createSlice({
     setAddCatalog: (state, action) => {
       state.catalog = [...state.catalog, ...action.payload]
     },
-    setCategories: (state, action) => {
-      state.categories = action.payload
-      state.categories.unshift({id: 11, title: "Все"})
-    },
     setCatalogTabs: (state, action) => {
       state.catalogTabs = action.payload
     },
@@ -44,11 +35,9 @@ const buyItemSlice = createSlice({
 })
 
 export const {
-  setBestseller,
   setCatalog,
   setCatalogFilter,
   setAddCatalog,
-  setCategories,
   setCatalogTabs
 } = buyItemSlice.actions
 

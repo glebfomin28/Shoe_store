@@ -1,50 +1,14 @@
-
-// хиты продаж
-import {deleteOrderList, setAddress, setCheckbox, setInfoItem, setPhone, setSuccess} from "../store/reducers";
-
-export const getBestsellerList = (dispatch, reducer) => {
-  try {
-    fetch("http://localhost:7070/api/top-sales")
-      .then( (res) => res.json() )
-      .then( (json) => dispatch(reducer(json)) )
-  } catch (e) {
-    return console.log(e)
-  }
-}
-
-// каталог: категории
-export const getCategories = (dispatch, reducer) => {
-  try {
-    fetch("http://localhost:7070/api/categories")
-      .then( (res) => res.json() )
-      .then( (json) => dispatch(reducer(json)) )
-
-  } catch (e) {
-    return console.log(e)
-  }
-}
-
-// каталог: получить объект с каталогом
-export const getCatalogList = (dispatch, reducer, URL) => {
-  try {
-    fetch(URL)
-      .then( (res) => res.json() )
-      .then( (json) => dispatch(reducer(json)) )
-
-  } catch (e) {
-    return console.log(e)
-  }
-}
-
 // каталог: поиск
-export const searchCatalogItems = (dispatch, reducer, value) => {
-  // if (value === '') return
+export const searchCatalogItems = (value, activeTabs, setCatalog) => {
   try {
     fetch(`http://localhost:7070/api/items?q=${value}`)
       .then( (res) => res.json() )
       .then( (json) => {
-        dispatch(reducer(json))
-      })
+        const filterValue = json.filter((v) =>
+            activeTabs === 11 ? true : v.category === activeTabs
+        )
+        return setCatalog(filterValue)
+      } )
   } catch (e) {
     return console.log(e)
   }

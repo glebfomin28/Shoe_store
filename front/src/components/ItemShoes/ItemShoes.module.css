@@ -1,19 +1,21 @@
 .item {
-    margin: 0 44px 20px 0;
+    /*margin: 0 44px 20px 0;*/
+    margin: 0 12px 24px;
     position: relative;
     text-align: left;
-    width: 30%;
+    min-width: 300px;
     height: 550px;
     border: 2px solid #e3e3e4;
     border-radius: 5px;
     font-size: 18px;
+    transition: 0.9s;
 }
-.item:nth-child(3n) {
-    margin: 0 0 20px 0;
-}
+/*.item:nth-child(3n) {*/
+/*    margin: 0 0 20px 0;*/
+/*}*/
 
 .item__img {
-    width: 100%;
+    width: 300px;
 }
 
 .item__name {
