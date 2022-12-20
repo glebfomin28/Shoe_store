@@ -1,0 +1,23 @@
+
+.cart {
+    position: relative;
+    transition: 0.5s;
+}
+
+.cart__sumPrice {
+    margin-right: 130px;
+    display: flex;
+    width: 1000px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #2b3131;
+}
+
+.cart__sumPrice__text {
+    width: 750px;
+    text-align: right;
+}
+.cart__sumPrice__price {
+    width: 150px;
+    text-align: right;
+}

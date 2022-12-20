@@ -1,0 +1,16 @@
+.contacts {
+    margin: auto;
+    width: 1100px;
+    text-align: center;
+}
+
+.contacts__title {
+    margin: 25px 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.contacts__link {
+    text-decoration: none;
+    color: black;
+}

@@ -3,21 +3,22 @@
     padding: 0 8px;
     display: flex;
     min-width: 350px;
+    font-size: 18px;
 }
 
-.naw__item {
-    margin: 20px 8px;
+.naw__item, .naw__item__active {
+    margin: 18px 15px;
     cursor: pointer;
     text-decoration: none;
+    color: #727e86;
+    transition: color 0.2s;
 }
 .naw__item__active {
-    margin: 20px 8px;
-    cursor: pointer;
-    text-decoration: none;
-    color: #333333;
-    font-weight: 500;
+    color: #363535;
+    font-weight: 600;
+    border-bottom: 2px solid #d91919;
 }
 
 .naw__item:hover {
-    color: #333333;
+    color: #d91919;
 }

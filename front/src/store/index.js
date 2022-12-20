@@ -1,5 +1,10 @@
 import { configureStore, combineReducers } from '@reduxjs/toolkit'
-import {finishOrderingReducer, orderItemReducer, searchReducer, shoesListReducer} from "./reducers";
+import {
+  cartItemsReducer, likesItemsReducer,
+  ordersItemsReducer,
+  searchReducer,
+  shoesStoreActionsReducer
+} from "./reducers";
 import {
   persistStore,
   persistReducer,
@@ -14,10 +19,11 @@ import storage from 'redux-persist/lib/storage';
 import { dataApi } from "./RTKQuery";
 
 const rootReducer = combineReducers({
-  shoesList: shoesListReducer,
+  shoesStoreActions: shoesStoreActionsReducer,
   search: searchReducer,
-  orderItem: orderItemReducer,
-  finishOrdering: finishOrderingReducer,
+  cartItems: cartItemsReducer,
+  ordersItems: ordersItemsReducer,
+  likesItems: likesItemsReducer,
   [dataApi.reducerPath]: dataApi.reducer
 })
 
@@ -25,7 +31,7 @@ const rootReducer = combineReducers({
 
 const persistConfig = {
   key: 'root',
-  blacklist: ['search', 'shoesList', 'finishOrdering', 'dataApi'],
+  blacklist: ['search', 'shoesStoreActions', 'dataApi'],
   storage,
 }
 

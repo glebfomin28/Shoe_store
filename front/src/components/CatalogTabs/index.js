@@ -1,15 +1,18 @@
 import React from 'react';
 import styles from "./CatalogTabs.module.css";
 import {useDispatch, useSelector} from "react-redux";
-import {SELECTOR_SHOES_LIST, setCatalogTabs} from "../../store/reducers";
+import {SELECTOR_SHOES_STORE_ACTIONS, setCatalogTabs} from "../../store/reducers";
 import {useGetCategoriesQuery} from "../../store/RTKQuery";
 import {Preloader} from "../Preloader";
+import {useNavigate} from "react-router-dom";
 
 export const CatalogTabs = () => {
 
   const {data = [], isLoading, error} = useGetCategoriesQuery()
-  const { catalogTabs } = useSelector(SELECTOR_SHOES_LIST)
+  const { catalogTabs } = useSelector(SELECTOR_SHOES_STORE_ACTIONS)
   const d = useDispatch()
+  const navigate = useNavigate()
+
   const printFilterCell = data.map(el =>
     <div
       className={catalogTabs !== el.id
@@ -27,7 +30,7 @@ export const CatalogTabs = () => {
       {isLoading?
           <Preloader/>
         : error ?
-        <div>ERROR</div>
+          navigate('*')
         : printFilterCell
       }
     </div>

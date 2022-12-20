@@ -1,29 +1,159 @@
 [
   {
-    "id": 20,
+      "id": 99,
+      "category": 12,
+      "title": "Ultraboost DNA XXII Shoes",
+      "images": [
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c489d8f2793143aeb63dae890023defb_9366/Ultraboost_DNA_XXII_Shoes_Black_GX6849_01_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b153502b4bad44ebac61ae89002406c2_9366/Ultraboost_DNA_XXII_Shoes_Black_GX6849_02_standard_hover.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/39c9329009764b548ce0ae890024198f_9366/Ultraboost_DNA_XXII_Shoes_Black_GX6849_03_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8fdb47eb419d491e882cae8900242ce7_9366/Ultraboost_DNA_XXII_Shoes_Black_GX6849_04_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/131bfbc422334b1d862aae89002441fa_9366/Ultraboost_DNA_XXII_Shoes_Black_GX6849_05_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/9c17ba1451ce41d98118ae890024542e_9366/Ultraboost_DNA_XXII_Shoes_Black_GX6849_41_detail.jpg"
+
+    ],
+      "manufacturer": "adidas",
+      "sex": "Мужской",
+      "color": "Черный/угольный",
+      "reason": "Спортивная одежда",
+      "season": "Лето",
+      "price": 9500,
+      "sizes": [
+        {
+          "size": "40",
+          "avalible": true
+        },
+      {
+        "size": "41",
+        "avalible": true
+      },
+      {
+        "size": "42",
+        "avalible": true
+      },
+        {
+        "size": "43",
+        "avalible": true
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "category": 14,
+    "title": "Superstar Shoes",
+    "images": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7ed0855435194229a525aad6009a0497_9366/Superstar_Shoes_White_EG4958_01_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8a358bcd5e3d453da815aad6009a249e_9366/Superstar_Shoes_White_EG4958_02_standard_hover.jpg"
+    ],
+    "manufacturer": "adidas",
+    "sex": "Женский, Мужской",
+    "color": "Белый",
+    "reason": "Кэжуал",
+    "season": "Весна, Лето",
+    "price": 12000,
+    "sizes": [
+      {
+        "size": "37",
+        "avalible": true
+      },
+      {
+        "size": "39",
+        "avalible": true
+      },
+      {
+        "size": "42",
+        "avalible": true
+      },
+      {
+        "size": "43",
+        "avalible": true
+      }
+    ]
+  },
+  {
+    "id": 103,
     "category": 13,
-    "title": "Кроссовки как у Pharrell Williams",
+    "title": "FORUM LOW W",
+    "images": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/064e892e1cb54fccb74eaeed00c39c30_9366/FORUM_LOW_W_White_HP3372_01_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0385fe033a6c4966b599aeed00c3c97a_9366/FORUM_LOW_W_White_HP3372_04_standard.jpg"
+    ],
+    "manufacturer": "adidas",
+    "sex": "Женский",
+    "color": "Белый, Розовый",
+    "reason": "Кэжуал",
+    "season": "Весна, Лето",
+    "price": 12000,
+    "sizes": [
+      {
+        "size": "36",
+        "avalible": true
+      },
+      {
+        "size": "37",
+        "avalible": true
+      },
+      {
+        "size": "38",
+        "avalible": false
+      },
+      {
+        "size": "39",
+        "avalible": true
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "category": 15,
+    "title": "Superstar Kids",
+    "images": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/bd8f7ae244774097a60bab0300bea8de_9366/Superstar_Shoes_Black_EF5394_01_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7417706fc7024a7bb4f4ab0300bec1f6_9366/Superstar_Shoes_Black_EF5394_02_standard_hover.jpg"
+    ],
+    "sex": "Женский, Мужской",
+    "manufacturer": "adidas",
+    "color": "Черный",
+    "reason": "Кэжуал",
+    "season": "Весна, Лето",
+    "price": 7800,
+    "oldPrice": 9500,
+    "sizes": [
+      {
+        "size": "32",
+        "avalible": true
+      },
+      {
+        "size": "34",
+        "avalible": true
+      },
+      {
+        "size": "35",
+        "avalible": true
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "category": 14,
+    "title": "Кроссовки adidas Humanrace",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/pharrell_williams_sneakers.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/pharrell_williams_sneakers_2.jpg"
     ],
-    "sku": "1000000",
-    "manufacturer": "Chanel",
-    "color": "Черный",
-    "material": "Ткань",
-    "reason": "Прогулка",
+    "manufacturer": "adidas",
+    "color": "Желтый, Черный",
+    "reason": "Прогулка, Kэжуал",
     "season": "Лето",
-    "heelSize": "3 см.",
-    "price": 12000,
-    "oldPrice": 14000,
+    "price": 8999,
     "sizes": [
       {
-        "size": "10 US",
+        "size": "39",
         "avalible": true
       },
       {
-        "size": "15 US",
-        "avalible": false
+        "size": "42",
+        "avalible": true
       }
     ]
   },
@@ -32,24 +162,22 @@
     "category": 13,
     "title": "Туфли принцессы",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/princess_shoes.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/princess_shoes_2.jpg"
+      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/princess_shoes.jpg"
     ],
-    "sku": "1000001",
+    "sex": "Женский",
     "manufacturer": "Dolce & Gabbana",
     "color": "Фиолетовый",
-    "material": "Бархат",
     "reason": "Высока мода",
     "season": "Лето",
     "heelSize": "7 см.",
-    "price": 3000,
+    "price": 9400,
     "sizes": [
       {
-        "size": "12 US",
-        "avalible": true
+        "size": "38",
+        "avalible": false
       },
       {
-        "size": "16 US",
+        "size": "39",
         "avalible": false
       }
     ]
@@ -61,22 +189,25 @@
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/shoes_with_windows.jpg"
     ],
-    "sku": "1000002",
+    "sex": "Женский",
     "manufacturer": "Dolce & Gabbana",
     "color": "Черный",
-    "material": "Ткань",
     "reason": "Высока мода",
     "season": "Лето",
     "heelSize": "8 см.",
-    "price": 4000,
+    "price": 9000,
     "sizes": [
       {
-        "size": "14 US",
+        "size": "36",
         "avalible": true
       },
       {
-        "size": "18 US",
+        "size": "37",
         "avalible": false
+      },
+      {
+        "size": "38",
+        "avalible": true
       }
     ]
   },
@@ -85,25 +216,26 @@
     "category": 13,
     "title": "Кеды с насекомым",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/insect_sneakers.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/insect_sneakers_2.jpg"
+      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/insect_sneakers.jpg"
     ],
-    "sku": "1000003",
+    "sex": "Женский",
     "manufacturer": "Dolce & Gabbana",
     "color": "Серый",
-    "material": "Кожа",
-    "reason": "Спорт",
-    "season": "Лето",
-    "heelSize": "2 см.",
-    "price": 3500,
+    "reason": "Кэжуал, прогулки",
+    "season": "Лето, Весна",
+    "price": 6500,
     "sizes": [
       {
-        "size": "14 US",
+        "size": "40",
         "avalible": true
       },
       {
-        "size": "18 US",
+        "size": "39",
         "avalible": false
+      },
+      {
+        "size": "37",
+        "avalible": true
       }
     ]
   },
@@ -115,128 +247,129 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/outgoing_shoes.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/outgoing_shoes_2.jpg"
     ],
-    "sku": "1000004",
+    "sex": "Женский",
     "manufacturer": "Dolce & Gabbana",
-    "color": "Черный",
-    "material": "Кожа",
+    "color": "Черный, золотой",
     "reason": "Высокая мода",
     "season": "Лето",
     "heelSize": "8 см.",
-    "price": 2500,
+    "price": 5500,
+    "oldPrice": 6500,
     "sizes": [
       {
-        "size": "14 US",
+        "size": "36",
         "avalible": true
       },
       {
-        "size": "18 US",
+        "size": "37",
         "avalible": false
+      },
+      {
+        "size": "38",
+        "avalible": true
+      },
+      {
+        "size": "39",
+        "avalible": true
       }
     ]
   },
   {
     "id": 25,
     "category": 13,
-    "title": "Туфли императрицы",
+    "title": "Туфли с узором",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/empress's_slippers.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/empress's_slippers_2.jpg"
     ],
-    "sku": "1000005",
+    "sex": "Женский",
     "manufacturer": "Dolce & Gabbana",
     "color": "Бардо",
     "material": "Ткань",
     "reason": "Высокая мода",
-    "season": "Лето",
-    "heelSize": "8 см.",
-    "price": 15000,
+    "season": "Лето, Весна",
+    "price": 3000,
+    "oldPrice": 3500,
     "sizes": [
       {
-        "size": "15 US",
+        "size": "36",
+        "avalible": false
+      },
+      {
+        "size": "37",
+        "avalible": false
+      },
+      {
+        "size": "38",
         "avalible": true
       },
       {
-        "size": "18 US",
-        "avalible": false
+        "size": "39",
+        "avalible": true
       }
     ]
   },
   {
     "id": 26,
     "category": 14,
-    "title": "Кроссовки с рынка",
+    "title": "Кеды Dolce & Gabbana",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sneakers_from_the_market.jpg"
     ],
-    "sku": "1000006",
+    "sex": "Женский, Мужской",
     "manufacturer": "Dolce & Gabbana",
     "color": "Черный",
-    "material": "Ткань",
     "reason": "Спорт",
     "season": "Лето",
-    "heelSize": "1 см.",
-    "price": 6500,
+    "price": 8700,
+    "oldPrice": 9500,
     "sizes": [
       {
-        "size": "10 US",
+        "size": "38",
+        "avalible": false
+      },
+      {
+        "size": "39",
+        "avalible": false
+      },
+       {
+        "size": "39",
+        "avalible": false
+      },
+      {
+        "size": "40",
         "avalible": true
       },
       {
-        "size": "18 US",
-        "avalible": true
-      }
-    ]
-  },
-  {
-    "id": 27,
-    "category": 14,
-    "title": "Кроссовки пёстрые",
-    "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/colorful_sneakers.jpg"
-    ],
-    "sku": "1000007",
-    "manufacturer": "Chanel",
-    "color": "Белый",
-    "material": "Кожа",
-    "reason": "Спорт",
-    "season": "Лето",
-    "heelSize": "4 см.",
-    "price": 1750,
-    "oldPrice": 2000,
-    "sizes": [
-      {
-        "size": "10 US",
-        "avalible": true
-      },
-      {
-        "size": "18 US",
+        "size": "41",
         "avalible": false
       }
     ]
   },
   {
-    "id": 28,
+    "id": 27,
     "category": 13,
-    "title": "Туфли-долматинцы",
+    "title": "Кроссовки Gucci",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/dalmatian_shoes.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/dalmatian_shoes_2.jpg"
+      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/colorful_sneakers.jpg"
     ],
-    "sku": "1000008",
-    "manufacturer": "Chanel",
-    "color": "Белый",
-    "material": "Кожа",
-    "reason": "Высокая мода",
-    "season": "Лето",
-    "heelSize": "2 см.",
-    "price": 4000,
+    "sex": "Женский",
+    "manufacturer": "Gucci",
+    "color": "Белый, Черный, Золотой",
+    "reason": "Кэжуал, Прогулки",
+    "season": "Спорт, Весна, Осень",
+    "price": 15200,
     "sizes": [
       {
-        "size": "10 US",
-        "avalible": true
+        "size": "37",
+        "avalible": false
       },
       {
-        "size": "18 US",
+        "size": "38",
+        "avalible": false
+      },
+      {
+        "size": "39",
         "avalible": false
       }
     ]
@@ -244,26 +377,28 @@
   {
     "id": 29,
     "category": 13,
-    "title": "Сапоги на показ",
+    "title": "Прозрачные сапоги",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/transparent_boots.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/transparent_boots_2.jpg"
+      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/transparent_boots.jpg"
     ],
-    "sku": "1000009",
+    "sex": "Женский",
     "manufacturer": "Chanel",
     "color": "Прозрачный",
-    "material": "Резина",
     "reason": "Высокая мода",
     "season": "Осень",
     "heelSize": "3 см.",
-    "price": 2000,
+    "price": 8000,
     "sizes": [
       {
-        "size": "12 US",
+        "size": "38",
         "avalible": true
       },
       {
-        "size": "16 US",
+        "size": "39",
+        "avalible": true
+      },
+      {
+        "size": "40",
         "avalible": false
       }
     ]
@@ -276,21 +411,21 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/shiny_boots.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/shiny_boots_2.jpg"
     ],
-    "sku": "1000010",
+    "sex": "Женский",
     "manufacturer": "Chanel",
     "color": "Серый",
     "material": "Кожа",
     "reason": "Высокая мода",
     "season": "Осень",
-    "heelSize": "2 см.",
+    "heelSize": "3 см.",
     "price": 14000,
     "sizes": [
       {
-        "size": "12 US",
+        "size": "38",
         "avalible": true
       },
       {
-        "size": "16 US",
+        "size": "39",
         "avalible": false
       }
     ]
@@ -298,81 +433,77 @@
   {
     "id": 31,
     "category": 13,
-    "title": "Туфли как у Кэрри",
+    "title": "Туфли Manolo Blahnik",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/shoes_like_carrie.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/shoes_like_carrie_2.jpg"
     ],
-    "sku": "1000011",
+    "sex": "Женский",
     "manufacturer": "Manolo Blahnik",
     "color": "Синий",
-    "material": "Ткань",
     "reason": "Высокая мода",
     "season": "Лето",
     "heelSize": "8 см.",
     "price": 16500,
     "sizes": [
       {
-        "size": "12 US",
+        "size": "37",
         "avalible": true
       },
       {
-        "size": "16 US",
+        "size": "38",
         "avalible": false
       }
     ]
   },
   {
     "id": 32,
-    "category": 14,
+    "category": 12,
     "title": "Кеды от Оксимирона",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sneakers_from_oksimiron.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sneakers_from_oksimiron_2.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sneakers_from_oksimiron_3.jpg"
     ],
-    "sku": "1000012",
+    "sex": "Мужской",
     "manufacturer": "Reebok",
-    "color": "Серый",
-    "material": "Замша",
+    "color": "Серый, Желтый",
     "reason": "Спорт",
     "season": "Лето",
-    "heelSize": "2 см.",
-    "price":23000,
+    "price": 13000,
+    "oldPrice": 13900,
     "sizes": [
       {
-        "size": "12 US",
+        "size": "42",
         "avalible": true
       },
       {
-        "size": "14 US",
-        "avalible": false
+        "size": "43",
+        "avalible": true
       }
     ]
   },
   {
     "id": 33,
     "category": 13,
-    "title": "Знаменитые лабутэны",
+    "title": "Лабутэны",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/tufli_labuten.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/tufli_labuten_2.jpg"
+      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/tufli_labuten.jpg"
     ],
-    "sku": "1000013",
+    "sex": "Женский",
     "manufacturer": "Christian Louboutin",
     "color": "Черный",
-    "material": "Лак",
     "reason": "Высокая мода",
     "season": "Лето",
     "heelSize": "9 см.",
-    "price": 56000,
+    "price": 26000,
     "sizes": [
       {
-        "size": "12 US",
+        "size": "38",
         "avalible": true
       },
       {
-        "size": "14 US",
+        "size": "39",
         "avalible": false
       }
     ]
@@ -385,21 +516,20 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/spiked_shoes.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/spiked_shoes_2.jpg"
     ],
-    "sku": "1000014",
+    "sex": "Женский",
     "manufacturer": "Christian Louboutin",
     "color": "Красный",
-    "material": "Кожа",
     "reason": "Высокая мода",
     "season": "Лето",
     "heelSize": "9 см.",
-    "price": 1300,
+    "price": 21300,
     "sizes": [
       {
-        "size": "12 US",
+        "size": "37",
         "avalible": true
       },
       {
-        "size": "14 US",
+        "size": "38",
         "avalible": false
       }
     ]
@@ -412,75 +542,74 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/сlassic_sneakers.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/сlassic_sneakers_2.jpg"
     ],
-    "sku": "1000015",
+    "sex": "Женский, Мужской",
     "manufacturer": "Vans",
     "color": "Черный",
-    "material": "Ткань",
-    "reason": "Спорт",
+    "reason": "Спорт, Кэжуал",
     "season": "Лето",
-    "heelSize": "1 см.",
-    "price": 700,
-    "oldPrice": 1000,
+    "price": 1400,
+    "oldPrice": 1800,
     "sizes": [
       {
-        "size": "10 US",
+        "size": "37",
         "avalible": true
       },
       {
-        "size": "14 US",
+        "size": "39",
         "avalible": false
+      },
+      {
+        "size": "40",
+        "avalible": true
       }
     ]
   },
   {
     "id": 36,
     "category": 14,
-    "title": "Кроссовки Новый Баланс ",
+    "title": "Кроссовки New Balance",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/new_balance_sneakers.jpg"
     ],
-    "sku": "1000016",
+    "sex": "Женский, Мужской",
     "manufacturer": "New Balance",
     "color": "Фиолетовый",
-    "material": "Замша",
     "reason": "Спорт",
     "season": "Лето",
-    "heelSize": "2 см.",
-    "price": 14500,
+    "price": 11500,
+    "oldPrice": 13400,
     "sizes": [
       {
-        "size": "12 US",
+        "size": "40",
         "avalible": true
       },
       {
-        "size": "18 US",
+        "size": "45",
         "avalible": false
       }
     ]
   },
   {
     "id": 37,
-    "category": 13,
+    "category": 14,
     "title": "Кроссовки с мехом",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sneakers_with_fur.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sneakers_with_fur_2.jpg"
     ],
-    "sku": "1000017",
+    "sex": "Женский, Мужской",
     "manufacturer": "New Balance",
     "color": "Темно-салатовый",
-    "material": "Замша",
     "reason": "Спорт",
     "season": "Лето",
-    "heelSize": "2 см.",
-    "price": 4000,
+    "price": 8500,
     "sizes": [
       {
-        "size": "14 US",
+        "size": "39",
         "avalible": true
       },
       {
-        "size": "18 US",
+        "size": "41",
         "avalible": false
       }
     ]
@@ -488,26 +617,25 @@
   {
     "id": 38,
     "category": 13,
-    "title": "Кроссовки для девчонок",
+    "title": "Кроссовки New Balance",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sneakers_for_girls.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sneakers_for_girls_2.jpg"
     ],
-    "sku": "1000018",
+    "sex": "Женский",
     "manufacturer": "New Balance",
     "color": "Белый",
     "material": "Кожа",
     "reason": "Спорт",
     "season": "Лето",
-    "heelSize": "2 см.",
     "price": 5600,
     "sizes": [
       {
-        "size": "16 US",
+        "size": "36",
         "avalible": true
       },
       {
-        "size": "18 US",
+        "size": "37",
         "avalible": false
       }
     ]
@@ -519,7 +647,7 @@
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sneakers_for_little_girls.jpg"
     ],
-    "sku": "1000019",
+    "sex": "Женский",
     "manufacturer": "New Balance",
     "color": "Розовый",
     "material": "Кожа",
@@ -529,12 +657,12 @@
     "price": 5800,
     "sizes": [
       {
-        "size": "8 US",
+        "size": "34",
         "avalible": true
       },
       {
-        "size": "18 US",
-        "avalible": false
+        "size": "35",
+        "avalible": true
       }
     ]
   },
@@ -547,21 +675,20 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/nude_shoes_2.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/nude_shoes_3.jpg"
     ],
-    "sku": "1000020",
+    "sex": "Женский",
     "manufacturer": "ASOS",
-    "color": "Беж",
-    "material": "Замша",
+    "color": "Бежевый",
     "reason": "Высокая мода",
     "season": "Лето",
     "heelSize": "7 см.",
     "price": 6000,
     "sizes": [
       {
-        "size": "12 US",
+        "size": "38",
         "avalible": true
       },
       {
-        "size": "18 US",
+        "size": "39",
         "avalible": false
       }
     ]
@@ -573,50 +700,76 @@
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/hunter's_boots.jpg"
     ],
-    "sku": "1000021",
+    "sex": "Мужской",
     "manufacturer": "Timberland",
-    "color": "Беж",
-    "material": "Замша",
+    "color": "Песочный",
     "reason": "Спорт",
     "season": "Осень",
     "heelSize": "1 см.",
     "price": 7000,
     "sizes": [
       {
-        "size": "16 US",
+        "size": "42",
         "avalible": true
       },
       {
-        "size": "18 US",
-        "avalible": false
+        "size": "43",
+        "avalible": true
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "category": 12,
+    "title": "Берцы",
+    "images": [
+      "https://cdn1.ozone.ru/s3/multimedia-i/wc1000/6027310086.jpg",
+      "https://cdn1.ozone.ru/s3/multimedia-f/wc1000/6027310083.jpg"
+    ],
+    "sex": "Мужской",
+    "manufacturer": "BERKUT.IV",
+    "color": "Черный",
+    "reason": "Спорт",
+    "season": "Зима",
+    "heelSize": "1 см.",
+    "price": 3210,
+    "oldPrice": 4500,
+    "sizes": [
+      {
+        "size": "42",
+        "avalible": true
+      },
+      {
+        "size": "43",
+        "avalible": true
       }
     ]
   },
   {
     "id": 42,
-    "category": 13,
-    "title": "Сапоги охотницы",
+    "category": 12,
+    "title": "Резиновые сапоги для охоты и рыбалки",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/huntress_boots.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/huntress_boots_2.jpg"
     ],
-    "sku": "100002",
+    "like": false,
+    "sex": "Мужской",
     "manufacturer": "Hunter",
     "color": "Черный",
-    "material": "Резина",
-    "reason": "Прогулка",
+    "reason": "Охота, Рыбалка, Природа",
     "season": "Осень",
     "heelSize": "2 см.",
     "price": 8000,
     "oldPrice": 14000,
     "sizes": [
       {
-        "size": "14 US",
+        "size": "41",
         "avalible": true
       },
       {
-        "size": "16 US",
-        "avalible": false
+        "size": "42",
+        "avalible": true
       }
     ]
   },
@@ -628,21 +781,23 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/pumps.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/pumps_2.jpg"
     ],
-    "sku": "1000023",
+    "sex": "Женский",
     "manufacturer": "Estro",
-    "color": "Красный",
-    "material": "Лак",
     "reason": "Высокая мода",
     "season": "Лето",
     "heelSize": "9 см.",
-    "price": 1200,
+    "price": 13200,
     "sizes": [
       {
-        "size": "14 US",
+        "size": "37",
         "avalible": true
       },
       {
-        "size": "16 US",
+        "size": "38",
+        "avalible": true
+      },
+      {
+        "size": "39",
         "avalible": false
       }
     ]
@@ -654,21 +809,20 @@
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/rufous.jpg"
     ],
-    "sku": "1000024",
+    "sex": "Женский",
     "manufacturer": "ALDO",
     "color": "Оранжевый",
-    "material": "Замша",
     "reason": "Высокая мода",
     "season": "Лето",
     "heelSize": "9 см.",
     "price": 4800,
     "sizes": [
       {
-        "size": "12 US",
+        "size": "38",
         "avalible": true
       },
       {
-        "size": "16 US",
+        "size": "39",
         "avalible": false
       }
     ]
@@ -676,25 +830,24 @@
   {
     "id": 45,
     "category": 13,
-    "title": "Диор в рубчик",
+    "title": "Туфли Диор",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/ribbed_dior.jpg"
     ],
-    "sku": "1000025",
+    "sex": "Женский",
     "manufacturer": "Dior",
     "color": "Черный",
-    "material": "Ткань",
     "reason": "Высокая мода",
     "season": "Лето",
     "heelSize": "4 см.",
     "price": 6900,
     "sizes": [
       {
-        "size": "12 US",
-        "avalible": true
+        "size": "38",
+        "avalible": false
       },
       {
-        "size": "16 US",
+        "size": "39",
         "avalible": false
       }
     ]
@@ -702,26 +855,25 @@
   {
     "id": 46,
     "category": 13,
-    "title": "Кружевыне туфли",
+    "title": "Кружевные туфли",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/lace_up_shoes.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/lace_up_shoes_2.jpg"
     ],
-    "sku": "1000026",
+    "sex": "Женский",
     "manufacturer": "Dior",
     "color": "Черный",
-    "material": "Ткань",
     "reason": "Высокая мода",
     "season": "Лето",
     "heelSize": "8 см.",
-    "price": 3000,
+    "price": 7000,
     "sizes": [
       {
-        "size": "12 US",
+        "size": "39",
         "avalible": true
       },
       {
-        "size": "18 US",
+        "size": "40",
         "avalible": false
       }
     ]
@@ -734,21 +886,20 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/fishing_net.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/fishing_net_2.jpg"
     ],
-    "sku": "1000027",
+    "sex": "Женский",
     "manufacturer": "Dior",
-    "color": "Черный",
-    "material": "Ткань",
+    "color": "Бежевый",
     "reason": "Высокая мода",
     "season": "Лето",
-    "heelSize": "9 см.",
+    "heelSize": "2 см.",
     "price": 5000,
     "sizes": [
       {
-        "size": "12 US",
+        "size": "38",
         "avalible": true
       },
       {
-        "size": "18 US",
+        "size": "39",
         "avalible": true
       }
     ]
@@ -756,25 +907,24 @@
   {
     "id": 48,
     "category": 13,
-    "title": "LOVE",
+    "title": "Dior LOVE",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/love.jpg"
     ],
-    "sku": "1000028",
+    "sex": "Женский",
     "manufacturer": "Dior",
     "color": "Черный",
-    "material": "Замша",
     "reason": "Высокая мода",
     "season": "Лето",
     "heelSize": "7 см.",
     "price": 8000,
     "sizes": [
       {
-        "size": "14 US",
+        "size": "39",
         "avalible": true
       },
       {
-        "size": "16 US",
+        "size": "40",
         "avalible": false
       }
     ]
@@ -786,49 +936,50 @@
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/firebird_slippers.jpg"
     ],
-    "sku": "1000029",
+    "sex": "Женский",
     "manufacturer": "Dior",
-    "color": "Черный",
-    "material": "Замша",
+    "color": "Черный, Красный, Золотой",
     "reason": "Высокая мода",
     "season": "Лето",
     "heelSize": "8 см.",
     "price": 7900,
     "sizes": [
       {
-        "size": "10 US",
+        "size": "37",
         "avalible": true
       },
       {
-        "size": "16 US",
+        "size": "38",
         "avalible": false
+      },
+      {
+        "size": "39",
+        "avalible": true
       }
     ]
   },
   {
     "id": 50,
     "category": 13,
-    "title": "Туфли c крыьями",
+    "title": "Туфли c крльями",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/shoes_with_wings.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/shoes_with_wings_2.jpg"
     ],
-    "sku": "1000030",
+    "sex": "Женский",
     "manufacturer": "Zanotti",
     "color": "Серый",
-    "material": "Кожа",
     "reason": "Высокая мода",
     "season": "Лето",
     "heelSize": "10 см.",
-    "price": 2300,
-    "oldPrice": 3000,
+    "price": 5300,
     "sizes": [
       {
-        "size": "12 US",
-        "avalible": true
+        "size": "39",
+        "avalible": false
       },
       {
-        "size": "18 US",
+        "size": "41",
         "avalible": false
       }
     ]
@@ -836,54 +987,58 @@
   {
     "id": 51,
     "category": 12,
-    "title": "Ботинки для настоящих мужчин",
+    "title": "Ботинки Zanotti",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/boots_for_real_men.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/boots_for_real_men_2.jpg"
     ],
-    "sku": "1000031",
+    "sex": "Мужской",
     "manufacturer": "Zanotti",
     "color": "Черный",
-    "material": "Бархат",
-    "reason": "Спорт",
-    "season": "Лето",
-    "heelSize": "2 см.",
-    "price": 1000,
+    "reason": "Спорт, Прогулки",
+    "season": "Лето, Осень",
+    "price": 4500,
+    "oldPrice": 6300,
     "sizes": [
       {
-        "size": "12 US",
+        "size": "40",
         "avalible": true
       },
       {
-        "size": "18 US",
+        "size": "41",
         "avalible": false
+      },
+      {
+        "size": "42",
+        "avalible": true
+      },
+      {
+        "size": "43",
+        "avalible": true
       }
     ]
   },
   {
     "id": 52,
     "category": 13,
-    "title": "Больше крыльев",
+    "title": "Открытые туфли с крыльями",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/more_wings.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/more_wings_2.jpg"
     ],
-    "sku": "1000032",
+    "sex": "Женский",
     "manufacturer": "Zanotti",
     "color": "Черный",
     "material": "Бархат",
     "reason": "Высокая мода",
     "season": "Лето",
-    "heelSize": "10 см.",
-    "price": 4600,
+    "heelSize": "9 см.",
+    "price": 9600,
+    "oldPrice": 12600,
     "sizes": [
       {
-        "size": "12 US",
+        "size": "40",
         "avalible": true
-      },
-      {
-        "size": "18 US",
-        "avalible": false
       }
     ]
   },
@@ -895,22 +1050,22 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sultan's_shoes.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sultan's_shoes_2.jpg"
     ],
-    "sku": "1000033",
+    "sex": "Мужской",
     "manufacturer": "ALEXANDER MCQUEEN",
     "color": "Черный",
-    "material": "Бархат",
     "reason": "Высокая мода",
     "season": "Лето",
     "heelSize": "2 см.",
     "price": 6000,
+    "oldPrice": 7450,
     "sizes": [
       {
-        "size": "10 US",
+        "size": "41",
         "avalible": true
       },
       {
-        "size": "18 US",
-        "avalible": false
+        "size": "42",
+        "avalible": true
       }
     ]
   },
@@ -922,103 +1077,106 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/zebra_sneakers.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/zebra_sneakers_2.jpg"
     ],
-    "sku": "1000034",
+    "sex": "Женский, Мужской",
     "manufacturer": "OFF-WHITE",
     "color": "Черный",
-    "material": "Кожа",
     "reason": "Спорт",
     "season": "Лето",
-    "heelSize": "2 см.",
     "price": 4200,
     "sizes": [
       {
-        "size": "12 US",
+        "size": "34",
         "avalible": true
       },
       {
-        "size": "16 US",
-        "avalible": false
+        "size": "35",
+        "avalible": true
       }
     ]
   },
   {
     "id": 55,
     "category": 14,
-    "title": "Кроссовки обычные",
+    "title": "Кроссовки SWEAR",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/regular_sneakers.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/regular_sneakers_2.jpg"
     ],
-    "sku": "1000035",
+    "sex": "Женский, Мужской",
     "manufacturer": "SWEAR",
     "color": "Белый",
-    "material": "Кожа",
     "reason": "Спорт",
     "season": "Лето",
     "heelSize": "4 см.",
-    "price": 1200,
+    "price": 6200,
     "sizes": [
       {
-        "size": "14 US",
+        "size": "39",
         "avalible": true
       },
       {
-        "size": "16 US",
-        "avalible": false
+        "size": "40",
+        "avalible": true
+      },
+      {
+        "size": "41",
+        "avalible": true
       }
     ]
   },
   {
     "id": 56,
     "category": 12,
-    "title": "Шлепанцы с тисненым логотипом",
+    "title": "Сланцы GIVENCHY",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/flip-flops_with_embossed_logo.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/flip-flops_with_embossed_logo_2.jpg"
     ],
-    "sku": "1000036",
+    "sex": "Мужской",
     "manufacturer": "GIVENCHY",
     "color": "Черный",
-    "material": "Кожа",
-    "reason": "Спорт",
+    "reason": "Спорт, Отдых",
     "season": "Лето",
-    "heelSize": "1 см.",
     "price": 500,
+    "oldPrice": 700,
     "sizes": [
       {
-        "size": "16 US",
+        "size": "39",
         "avalible": true
       },
       {
-        "size": "16 US",
-        "avalible": false
+        "size": "40",
+        "avalible": true
+      },
+      {
+        "size": "41",
+        "avalible": true
       }
     ]
   },
   {
     "id": 57,
-    "category": 14,
-    "title": "Блестящий ковбой",
+    "category": 12,
+    "title": "Ковбойские сапоги",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/flip-shiny_cowboy.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/flip-shiny_cowboy_2.jpg"
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Blackcowboyboots.jpg/250px-Blackcowboyboots.jpg"
     ],
-    "sku": "1000037",
+    "sex": "Мужской",
     "manufacturer": "JIMMY CHOO",
-    "color": "Металлик",
-    "material": "Кожа",
+    "color": "Коричневый",
     "reason": "Высокая мода",
     "season": "Осень",
     "heelSize": "3 см.",
-    "price": 6500,
+    "price": 25990,
+    "oldPrice": 27000,
     "sizes": [
       {
-        "size": "18 US",
+        "size": "42",
         "avalible": true
       },
       {
-        "size": "20 US",
-        "avalible": false
+        "size": "43",
+        "avalible": true
       }
     ]
   },
@@ -1030,10 +1188,9 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/pink_rebel.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/pink_rebel_2.jpg"
     ],
-    "sku": "1000038",
+    "sex": "Мужской",
     "manufacturer": "GUIDI",
     "color": "Розовый",
-    "material": "Кожа",
     "reason": "Высокая мода",
     "season": "Осень",
     "heelSize": "3 см.",
@@ -1041,92 +1198,101 @@
     "oldPrice": 7200,
     "sizes": [
       {
-        "size": "16 US",
+        "size": "41",
         "avalible": true
       },
       {
-        "size": "20 US",
-        "avalible": false
+        "size": "42",
+        "avalible": true
+      },
+      {
+        "size": "43",
+        "avalible": true
+      },
+      {
+        "size": "44",
+        "avalible": true
       }
     ]
   },
   {
     "id": 59,
     "category": 14,
-    "title": "В стиле нюд",
+    "title": "Кроссовки GUCCI",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/nude.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/nude_2.jpg"
     ],
-    "sku": "1000039",
+    "sex": "Мужской",
     "manufacturer": "GUCCI",
-    "color": "Розовый",
-    "material": "Кожа",
-    "reason": "Высокая мода",
+    "color": "Бежевый",
+    "reason": "Высокая мода, Кежуал",
     "season": "Лето",
-    "heelSize": "3 см.",
-    "price": 6400,
+    "price": 36400,
     "sizes": [
       {
-        "size": "16 US",
+        "size": "40",
         "avalible": true
       },
       {
-        "size": "20 US",
-        "avalible": false
+        "size": "41",
+        "avalible": true
       }
     ]
   },
   {
     "id": 60,
     "category": 13,
-    "title": "Лоферы мечты",
+    "title": "Лоферы",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/dream_loafers.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/dream_loafers_2.jpg"
     ],
-    "sku": "1000040",
+    "sex": "Мужской",
     "manufacturer": "SERGIO ROSSI",
     "color": "Черный",
     "material": "Кожа",
     "reason": "Высокая мода",
     "season": "Лето",
-    "heelSize": "1 см.",
-    "price": 6100,
+    "price": 1100,
+    "oldPrice": 2900,
     "sizes": [
       {
-        "size": "12 US",
+        "size": "36",
         "avalible": true
       },
       {
-        "size": "20 US",
+        "size": "37",
         "avalible": false
+      },
+      {
+        "size": "38",
+        "avalible": true
       }
     ]
   },
   {
     "id": 61,
     "category": 15,
-    "title": "Баленсиага",
+    "title": "Кроссовки BALENCIAGA",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/balenciaga.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/balenciaga_2.jpg"
     ],
-    "sku": "1000041",
+    "sex": "Женский, Мужской",
     "manufacturer": "BALENCIAGA",
-    "color": "Разноцветные",
-    "material": "Кожа",
+    "color": "Белый, Розовый, Черный",
     "reason": "Спорт",
     "season": "Лето",
     "heelSize": "5 см.",
     "price": 3400,
     "sizes": [
       {
-        "size": "14 US",
+        "size": "34",
         "avalible": true
       },
       {
-        "size": "20 US",
+        "size": "35",
         "avalible": false
       }
     ]
@@ -1139,21 +1305,20 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/neodesign.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/neodesign_2.jpg"
     ],
-    "sku": "1000042",
+    "sex": "Женский, Мужской",
     "manufacturer": "REIKE NEN",
     "color": "Белый",
-    "material": "Кожа",
     "reason": "Высокая мода",
     "season": "Осень",
     "heelSize": "6 см.",
     "price": 16000,
     "sizes": [
       {
-        "size": "16 US",
+        "size": "38",
         "avalible": true
       },
       {
-        "size": "20 US",
+        "size": "39",
         "avalible": false
       }
     ]
@@ -1166,21 +1331,20 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/lace-up_ankle_boots.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/lace-up_ankle_boots_2.jpg"
     ],
-    "sku": "1000043",
+    "sex": "Женский, Мужской",
     "manufacturer": "OFF-WHITE",
     "color": "Коричневый",
-    "material": "Замша",
     "reason": "Прогулка",
     "season": "Осень",
     "heelSize": "5 см.",
-    "price": 46000,
+    "price": 26000,
     "sizes": [
       {
-        "size": "16 US",
+        "size": "40",
         "avalible": true
       },
       {
-        "size": "18 US",
+        "size": "41",
         "avalible": false
       }
     ]
@@ -1188,27 +1352,27 @@
   {
     "id": 64,
     "category": 13,
-    "title": "Без задника",
+    "title": "Босоножки MANSUR GAVRIEL",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/backless.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/backless_2.jpg"
     ],
-    "sku": "1000044",
+    "sex": "Женский",
     "manufacturer": "MANSUR GAVRIEL",
     "color": "Розовый",
-    "material": "Замша",
     "reason": "Прогулка",
     "season": "Лето",
     "heelSize": "4 см.",
     "price": 4000,
+    "oldPrice": 5000,
     "sizes": [
       {
-        "size": "14 US",
+        "size": "36",
         "avalible": true
       },
       {
-        "size": "18 US",
-        "avalible": false
+        "size": "37",
+        "avalible": true
       }
     ]
   },
@@ -1220,10 +1384,9 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sandals_keira.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sandals_keira_2.jpg"
     ],
-    "sku": "1000045",
+    "sex": "Женский",
     "manufacturer": "DOLCE & GABBANA",
     "color": "Разноцветные",
-    "material": "Кожа",
     "reason": "Прогулка",
     "season": "Лето",
     "heelSize": "3 см.",
@@ -1231,11 +1394,11 @@
     "oldPrice": 12000,
     "sizes": [
       {
-        "size": "14 US",
+        "size": "34",
         "avalible": true
       },
       {
-        "size": "18 US",
+        "size": "35",
         "avalible": false
       }
     ]
@@ -1243,27 +1406,26 @@
   {
     "id": 66,
     "category": 13,
-    "title": "Босоножки 'Myer' с завязкой на щиколотке",
+    "title": "Босоножки 'Myer'",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sandals_myer.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sandals_myer_2.jpg"
     ],
-    "sku": "1000046",
+    "sex": "Женский",
     "manufacturer": "PAUL ANDREW",
     "color": "Черный",
-    "material": "Кожа",
     "reason": "Прогулка",
     "season": "Лето",
     "heelSize": "4 см.",
-    "price": 34000,
+    "price": 14000,
     "sizes": [
       {
-        "size": "18 US",
+        "size": "39",
         "avalible": true
       },
       {
-        "size": "20 US",
-        "avalible": false
+        "size": "40",
+        "avalible": true
       }
     ]
   },
@@ -1275,48 +1437,42 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/elasticated_sandals.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/elasticated_sandals_2.jpg"
     ],
-    "sku": "1000047",
+    "sex": "Женский",
     "manufacturer": "ALCHIMIA DI BALLIN",
     "color": "Серебряный",
-    "material": "Кожа",
     "reason": "Прогулка",
     "season": "Лето",
-    "heelSize": "2 см.",
-    "price": 2300,
+    "heelSize": "4 см.",
+    "price": 6300,
     "sizes": [
       {
-        "size": "12 US",
+        "size": "38",
         "avalible": true
-      },
-      {
-        "size": "16 US",
-        "avalible": false
       }
     ]
   },
   {
     "id": 68,
-    "category": 14,
+    "category": 15,
     "title": "Космические кроссовки",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/space_sneakers.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/space_sneakers_2.jpg"
     ],
-    "sku": "1000048",
+    "sex": "Женский",
     "manufacturer": "Nº21",
     "color": "Черно-белый",
-    "material": "Кожа",
     "reason": "Спорт",
     "season": "Лето",
     "heelSize": "3 см.",
     "price": 5700,
     "sizes": [
       {
-        "size": "12 US",
+        "size": "36",
         "avalible": true
       },
       {
-        "size": "14 US",
+        "size": "37",
         "avalible": false
       }
     ]
@@ -1324,54 +1480,52 @@
   {
     "id": 69,
     "category": 13,
-    "title": "Волосатые копытца",
+    "title": "Туфли с розовым мехом",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/hairy_hooves.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/hairy_hooves_2.jpg"
     ],
-    "sku": "1000049",
+    "sex": "Женский",
     "manufacturer": "MARNI",
     "color": "Розовый",
-    "material": "Мех",
     "reason": "Высокая мода",
     "season": "Лето",
     "heelSize": "5 см.",
     "price": 3000,
     "sizes": [
       {
-        "size": "12 US",
+        "size": "38",
         "avalible": true
       },
       {
-        "size": "14 US",
-        "avalible": false
+        "size": "39",
+        "avalible": true
       }
     ]
   },
   {
     "id": 70,
     "category": 14,
-    "title": "Бабушкины шлёпки",
+    "title": "Шлёпки в сеточку",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/grandma's_flip_flops.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/grandma's_flip_flops_2.jpg"
     ],
-    "sku": "1000050",
+    "sex": "Женский, Мужской",
     "manufacturer": "MICHEL VIVIEN",
     "color": "Бежевый",
-    "material": "Кожа",
     "reason": "Прогулка",
     "season": "Лето",
-    "heelSize": "1 см.",
     "price": 1000,
+    "oldPrice": 1500,
     "sizes": [
       {
-        "size": "12 US",
+        "size": "40",
         "avalible": true
       },
       {
-        "size": "16 US",
-        "avalible": false
+        "size": "41",
+        "avalible": true
       }
     ]
   },
@@ -1383,24 +1537,26 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/flip_flops_with_straps.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/flip_flops_with_straps_2.jpg"
     ],
-    "sku": "1000051",
+    "sex": "Женский, Мужской",
     "manufacturer": "TORY BURCH",
     "color": "Бежевый",
-    "material": "Кожа",
     "reason": "Прогулка",
-    "season": "Лето",
-    "heelSize": "1 см.",
     "price": 900,
     "oldPrice": 1200,
     "sizes": [
       {
-        "size": "12 US",
+        "size": "39",
         "avalible": true
       },
       {
-        "size": "18 US",
-        "avalible": false
+        "size": "41",
+        "avalible": true
+      },
+      {
+        "size": "42",
+        "avalible": true
       }
+
     ]
   },
   {
@@ -1411,22 +1567,21 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/slipons.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/slipons_2.jpg"
     ],
-    "sku": "1000052",
+    "sex": "Мужской",
     "manufacturer": "ALBUM DI FAMIGLIA",
     "color": "Черный",
-    "material": "Кожа",
     "reason": "Прогулка",
     "season": "Лето",
-    "heelSize": "1 см.",
     "price": 1200,
+    "oldPrice": 3500,
     "sizes": [
       {
-        "size": "14 US",
+        "size": "42",
         "avalible": true
       },
       {
-        "size": "18 US",
-        "avalible": false
+        "size": "43",
+        "avalible": true
       }
     ]
   },
@@ -1437,21 +1592,28 @@
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/superhero_sneakers.jpg"
     ],
-    "sku": "1000053",
+    "sex": "Женский, Мужской",
     "manufacturer": "Vans",
     "color": "Белый",
-    "material": "Ткань",
-    "reason": "Спорт",
+    "reason": "Спорт, Кэжуал",
     "season": "Лето",
-    "heelSize": "2 см.",
-    "price": 1400,
+    "price": 6400,
+    "oldPrice": 7900,
     "sizes": [
       {
-        "size": "16 US",
+        "size": "34",
         "avalible": true
       },
       {
-        "size": "18 US",
+        "size": "35",
+        "avalible": false
+      },
+      {
+        "size": "36",
+        "avalible": true
+      },
+      {
+        "size": "37",
         "avalible": false
       }
     ]
@@ -1459,27 +1621,27 @@
   {
     "id": 74,
     "category": 12,
-    "title": "Футуристичные кроссовки",
+    "title": "Кроссовки NIKE",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/futuristic_sneakers.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/futuristic_sneakers_2.jpg"
     ],
-    "sku": "1000054",
+    "sex": "Мужской",
     "manufacturer": "NIKE",
     "color": "Белый",
     "material": "Пластик",
     "reason": "Спорт",
     "season": "Лето",
     "heelSize": "2 см.",
-    "price": 4300,
+    "price": 9300,
     "sizes": [
       {
-        "size": "16 US",
+        "size": "41",
         "avalible": true
       },
       {
-        "size": "18 US",
-        "avalible": false
+        "size": "42",
+        "avalible": true
       }
     ]
   },
@@ -1491,48 +1653,20 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/complex_geometry.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/complex_geometry_2.jpg"
     ],
-    "sku": "1000055",
+    "sex": "Женский",
     "manufacturer": "JACQUEMUS",
     "color": "Черный",
-    "material": "Кожа",
     "reason": "Высокая мода",
     "season": "Лето",
     "heelSize": "6 см.",
     "price": 6500,
     "sizes": [
       {
-        "size": "12 US",
+        "size": "37",
         "avalible": true
       },
       {
-        "size": "18 US",
-        "avalible": false
-      }
-    ]
-  },
-  {
-    "id": 76,
-    "category": 13,
-    "title": "Утро кондуктора",
-    "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/conductor's_morning.jpg"
-    ],
-    "sku": "1000056",
-    "manufacturer": "MARC ELLIS",
-    "color": "Черный",
-    "material": "Кожа",
-    "reason": "Высокая мода",
-    "season": "Осень",
-    "heelSize": "3 см.",
-    "price": 2100,
-    "oldPrice": 2300,
-    "sizes": [
-      {
-        "size": "12 US",
-        "avalible": true
-      },
-      {
-        "size": "14 US",
+        "size": "38",
         "avalible": false
       }
     ]
@@ -1545,22 +1679,21 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/boots-pipes.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/boots-pipes_2.jpg"
     ],
-    "sku": "1000057",
+    "sex": "Женский",
     "manufacturer": "MARC ELLIS",
     "color": "Синий",
-    "material": "Замша",
     "reason": "Высокая мода",
     "season": "Осень",
     "heelSize": "5 см.",
-    "price": 3400,
+    "price": 9400,
     "sizes": [
       {
-        "size": "12 US",
+        "size": "37",
         "avalible": true
       },
       {
-        "size": "18 US",
-        "avalible": false
+        "size": "38",
+        "avalible": true
       }
     ]
   },
@@ -1572,21 +1705,20 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/ankle_boots.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/ankle_boots_2.jpg"
     ],
-    "sku": "1000058",
+    "sex": "Женский",
     "manufacturer": "GIANVITO ROSSI",
     "color": "Черный",
-    "material": "Ткань",
     "reason": "Высокая мода",
     "season": "Осень",
     "heelSize": "6 см.",
     "price": 6200,
     "sizes": [
       {
-        "size": "12 US",
+        "size": "37",
         "avalible": true
       },
       {
-        "size": "14 US",
+        "size": "38",
         "avalible": false
       }
     ]
@@ -1594,26 +1726,25 @@
   {
     "id": 79,
     "category": 13,
-    "title": "Сетчатая душа",
+    "title": "Сетчатые туфли",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/mesh_soul.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/mesh_soul_2.jpg"
     ],
-    "sku": "1000059",
+    "sex": "Женский",
     "manufacturer": "JIMMY CHOO",
     "color": "Черный",
-    "material": "Кожа",
     "reason": "Высокая мода",
     "season": "Осень",
     "heelSize": "5 см.",
     "price": 2110,
     "sizes": [
       {
-        "size": "12 US",
+        "size": "37",
         "avalible": true
       },
       {
-        "size": "16 US",
+        "size": "38",
         "avalible": false
       }
     ]
@@ -1626,10 +1757,9 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/pink_tigress.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/pink_tigress_2.jpg"
     ],
-    "sku": "1000060",
+    "sex": "Женский",
     "manufacturer": "Nº21",
     "color": "Розовый",
-    "material": "Кожа",
     "reason": "Высокая мода",
     "season": "Лето",
     "heelSize": "4 см.",
@@ -1637,12 +1767,12 @@
     "oldPrice": 5500,
     "sizes": [
       {
-        "size": "16 US",
+        "size": "38",
         "avalible": true
       },
       {
-        "size": "18 US",
-        "avalible": false
+        "size": "39",
+        "avalible": true
       }
     ]
   },
@@ -1654,22 +1784,17 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/rope_shoes.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/rope_shoes_2.jpg"
     ],
-    "sku": "1000061",
+    "sex": "Женский",
     "manufacturer": "KAT MACONIE",
     "color": "Черный",
-    "material": "Ткань",
     "reason": "Высокая мода",
     "season": "Лето",
     "heelSize": "7 см.",
     "price": 1200,
     "sizes": [
       {
-        "size": "12 US",
+        "size": "37",
         "avalible": true
-      },
-      {
-        "size": "18 US",
-        "avalible": false
       }
     ]
   }

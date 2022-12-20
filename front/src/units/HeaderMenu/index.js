@@ -2,14 +2,14 @@ import React from 'react';
 import styles from './styles/HeaderMenu.module.css';
 import headerLogo from '../../img/header-logo.png';
 import {useNavigate} from "react-router-dom";
-import {HeaderImag, NavLinks, SearchAndBag} from "./units";
+import {HeaderImag, NavLinks, UserActions} from "./units";
 
 export const HeaderMenu = () => {
 
   const navigate = useNavigate()
 
   return (
-    <>
+  <>
     <div className={styles.header}>
       <div className={styles.header__center}>
         <img
@@ -18,18 +18,13 @@ export const HeaderMenu = () => {
           alt="Bosa Noga"
           onClick={() => navigate("/")}
         />
-
         <div className={styles.header__row}>
-
           <NavLinks/>
-
-          <SearchAndBag/>
-
+          <UserActions/>
         </div>
+
       </div>
-
     </div>
-
     <HeaderImag/>
   </>
   );

@@ -1,12 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&subset=cyrillic-ext');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     margin: auto;
     position: relative;
-    width: 1000px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    overflow-x: hidden;
+    background: linear-gradient(90deg,
+    rgba(242,242,242,1) 0%,
+    rgba(255,255,255,1) 45%,
+    rgba(255,255,255,1) 56%,
+    rgba(242,242,242,1) 100%);
 }
 
 .main {
+    margin: 0 auto;
+    position: relative;
+    width: 1200px;
     flex-grow: 1;
 }

@@ -1,0 +1,107 @@
+
+.orders__item {
+    position: relative;
+    margin: 15px 0 15px 25px;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.orders__item__action {
+    position: absolute;
+    top: 10px;
+    left: -25px;
+    font-size: 22px;
+    color: #625a5a;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.orders__item__title {
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #fdfdfd;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.33);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.orders__item__title__number {
+    position: absolute;
+    left: -25px;
+    font-size: 18px;
+}
+
+.orders__item__title__date {
+    color: gray;
+}
+
+.orders__item__title__price {
+    position: absolute;
+    right: 15px;
+    font-weight: 500;
+}
+
+.orders__item__title__order {
+    position: absolute;
+    left: 15px;
+    width: 150px;
+    text-align: left;
+}
+
+
+
+.orders__item__names {
+    margin: 0 5px;
+    background-color: #e5e7ea;
+    border-radius: 0 0 8px 8px;
+    overflow: hidden;
+    box-shadow: 0.5px 0.5px 1px 0px rgba(2, 0, 0, 0.33);
+    transition: 0.5s;
+}
+
+.orders__item__names__block {
+    margin: 10px;
+    display: flex;
+}
+
+
+.orders__item__names__block__item,
+.orders__item__names__block__item__head {
+    margin-left: 10px;
+    width: 40%;
+    text-align: left;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.orders__item__names__block__item:hover {
+    color: #c90303;
+}
+
+.orders__item__names__block__size,
+.orders__item__names__block__amount,
+.orders__item__names__block__size__head,
+.orders__item__names__block__amount__head {
+    width: 20%;
+    text-align: center;
+}
+.orders__item__names__block__amount,
+.orders__item__names__block__amount__head {
+    margin-left: 20px;
+}
+.orders__item__names__block__price,
+.orders__item__names__block__price__head {
+    margin-right: 10px;
+    width: 15%;
+    text-align: right;
+}
+
+.orders__item__names__block__item__head,
+.orders__item__names__block__size__head,
+.orders__item__names__block__amount__head,
+.orders__item__names__block__price__head {
+    font-weight: 600;
+}

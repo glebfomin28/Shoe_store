@@ -1,0 +1,136 @@
+.footer {
+    padding: 40px 0 ;
+    flex-shrink: 0;
+    margin-top: 20px;
+    background-color: #727e86;
+    width: 100vw;
+    color: white;
+    box-shadow: 0 0 6px 2px rgba(7, 9, 10, 0.2);
+}
+
+.footer__body {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+}
+
+.footer__naw {
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+}
+
+.footer__naw__item {
+    margin: 6px 0;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.footer__naw__item:hover {
+    color: rgb(33, 33, 33);
+    font-weight: bold;
+}
+
+.footer__pay {
+    width: 400px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer__pay__text {
+    margin-top: 40px;
+    font-size: 13px;
+}
+
+.footer__pay__systems {
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__pay__paypal,
+.footer__pay__masterCard,
+.footer__pay__visa,
+.footer__pay__yandex,
+.footer__pay__webmoney,
+.footer__pay__qiwi {
+    width: 46px;
+    height: 28px;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-image: url("../../img/footer-sprite.png");
+}
+
+.footer__pay__paypal {
+    background-position: -2px -6px;
+}
+.footer__pay__masterCard {
+    background-position: -54px -8px;
+}
+.footer__pay__visa {
+    background-position: -104px -8px;
+}
+.footer__pay__yandex {
+    background-position: -154px -8px;
+}
+.footer__pay__webmoney {
+    background-position: -2px -46px;
+}
+.footer__pay__qiwi {
+    background-position: -52px -46px;
+}
+
+.footer__contacts {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__contacts_link {
+    text-decoration: none;
+    color: white;
+}
+
+.footer__contacts_link:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.footer__contacts_socialNetwork {
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    text-align: center;
+}
+
+.footer__contacts_socialNetwork__vk,
+.footer__contacts_socialNetwork__inst {
+    background-image: url("../../img/vkWhite.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.footer__contacts_socialNetwork__vk:hover {
+    background-image: url("../../img/vkBlack.png");
+}
+
+.footer__contacts_socialNetwork__inst {
+    background-image: url("../../img/instWhite.png");
+}
+
+.footer__contacts_socialNetwork__inst:hover {
+    background-image: url("../../img/instBlack.png");
+}

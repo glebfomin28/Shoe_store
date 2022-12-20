@@ -12,6 +12,8 @@ import {
 } from "./units";
 import styles from './App.module.css'
 import { Route, Routes } from "react-router-dom";
+import {UserOrdersPage} from "./units/pages/UserOrdersPage";
+import {FavoritesPage} from "./units/pages/FavoritesPage";
 
 
 
@@ -26,9 +28,11 @@ export const App = () => {
         <Routes >
           <Route path="/" exact element={<HomePage/>} />
           <Route path="/catalog.html" element={<CatalogPage/>} />
-          <Route path="//about.html" element={<AboutPage/>} />
+          <Route path="/about.html" element={<AboutPage/>} />
           <Route path="/contacts.html" element={<ContactsPage/>} />
           <Route path="/catalog/:id.html" element={<OrderPage/>} />
+          <Route path="/orders.html" element={<UserOrdersPage/>} />
+          <Route path="/favorites.html" element={<FavoritesPage/>} />
           <Route path="/cart.html" element={<CartPage/>} />
           <Route path="*" exact element={<ErrorPage404/>} />
         </Routes>

@@ -1,22 +1,25 @@
 .header {
     position: fixed;
-    z-index: 10;
+    z-index: 27;
     top: 0;
     left: 0;
     right: 0;
-    padding: 8px 12px ;
-    background-color: #fdfdfe;
+    padding: 6px 12px;
+    background-color: #f5faff;
+    /*background: linear-gradient(93.68deg, #ebe5e9 5.29%, #e1eeef 95.42%);*/
+    box-shadow: 0 0 5px 1px rgba(7, 9, 10, 0.2);
 }
 
 .header__center {
     margin: 0 auto;
     display: flex;
-    width: 1000px;
+    width: 1210px;
 }
 
 .header__logo {
     display: block;
     cursor: pointer;
+    border-radius: 6px;
 }
 
 .header__row {

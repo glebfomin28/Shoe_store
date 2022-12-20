@@ -16,11 +16,37 @@ export const dataApi = createApi({
                 url: `items${catalogTabs !== 11?`?categoryId=${catalogTabs}`: ''}`
             }),
         }),
+        getInfoItem: build.query({
+            query: (value) => `/items/${value}`
+        }),
+        addOrder: build.mutation({
+            query: (body) => ({
+                url: '/order',
+                method: 'POST',
+                body
+            })
+        }),
+        getOrderList: build.query({
+            query: () =>  '/orderList',
+            keepUnusedDataFor: 5,
+        }),
+        deleteOrderList: build.mutation({
+            query: () => ({
+                url: `/deleteOrderList`,
+                method: 'DELETE',
+            })
+        }),
+
+
     })
 })
 
 export const {
-    useGetTopSalesQuery,
-    useGetCategoriesQuery,
-    useGetCatalogListQuery,
+  useGetTopSalesQuery,
+  useGetCategoriesQuery,
+  useGetCatalogListQuery,
+  useGetInfoItemQuery,
+  useAddOrderMutation,
+  useGetOrderListQuery,
+  useDeleteOrderListMutation
 } = dataApi;

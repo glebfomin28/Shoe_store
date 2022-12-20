@@ -7,8 +7,9 @@ const koaBody = require('koa-body');
 
 const categories = JSON.parse(fs.readFileSync('./data/categories.json'));
 const items = JSON.parse(fs.readFileSync('./data/products.json'));
-const topSaleIds = [32, 20, 73, 51, 42, 58];
-// const moreCount = 6;
+const topSaleIds = [100, 41, 57, 31, 34, 101, 102, 73];
+// const moreCount = 12;
+const ordersList = []
 
 const itemBasicMapper = item => ({
     id: item.id,
@@ -16,24 +17,33 @@ const itemBasicMapper = item => ({
     title: item.title,
     price: item.price,
     images: item.images,
+    oldPrice: item.oldPrice,
 });
 
-// const randomNumber = (start, stop) => {
-//     return Math.floor(Math.random() * (stop - start + 1)) + start;
-// }
+const idGenerator = () => {
+    const letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
+    const index = Math.floor(Math.random() * 7)
+    const number = Math.floor(Math.random() * 10000)
+    return letters[index] + `-${number}`
+}
+const randomNumber = (start, stop) => {
+    return Math.floor(Math.random() * (stop - start + 1)) + start;
+}
 
 const fortune = (ctx, body = null, status = 200) => {
     // Uncomment for delay
-    // const delay = randomNumber(1, 10) * 1000;
+    // const delay = randomNumber(1, 4) * 1000;
     const delay = 0;
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             // Uncomment for error generation
-            // if (Math.random() > 0.8) {
+            // if (Math.random() > 0.85) {
             //     reject(new Error('Something bad happened'));
             //     return;
             // }
-
+            ctx.set('Access-Control-Allow-Origin', '*');
+            ctx.set('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+            ctx.set('Access-Control-Allow-Methods', 'POST, GET, PUT, DELETE, OPTIONS');
             ctx.response.status = status;
             ctx.response.body = body;
             resolve();
@@ -59,15 +69,12 @@ router.get('/api/categories', async (ctx, next) => {
 
 router.get('/api/items', async (ctx, next) => {
     const { query } = ctx.request;
-
     const categoryId = query.categoryId === undefined ? 0 : Number(query.categoryId);
-    const offset = query.offset === undefined ? 0 : Number(query.offset);
     const q = query.q === undefined ? '' : query.q.trim().toLowerCase();
 
     const filtered = items
         .filter(o => categoryId === 0 || o.category === categoryId)
-        .filter(o => o.title.toLowerCase().includes(q) || o.color.toLowerCase() === q)
-        // .slice(offset, offset + moreCount)
+        .filter(o => o.title.toLowerCase().includes(q))
         .map(itemBasicMapper);
 
     return fortune(ctx, filtered);
@@ -83,8 +90,9 @@ router.get('/api/items/:id', async (ctx, next) => {
     return fortune(ctx, item);
 });
 
+
 router.post('/api/order', async (ctx, next) => {
-    const { owner: { phone, address }, items } = ctx.request.body;
+    const { owner: { phone, address }, items, price, date } = ctx.request.body;
     if (typeof phone !== 'string') {
         return fortune(ctx, 'Bad Request: Phone', 400);
     }
@@ -94,22 +102,25 @@ router.post('/api/order', async (ctx, next) => {
     if (!Array.isArray(items)) {
         return fortune(ctx, 'Bad Request: Items', 400);
     }
-    if (!items.every(({ id, price, count }) => {
-        if (typeof id !== 'number' || id <= 0) {
-            return false;
-        }
-        if (typeof price !== 'number' || price <= 0) {
-            return false;
-        }
-        if (typeof count !== 'number' || count <= 0) {
-            return false;
-        }
-        return true;
-    })) {
-        return fortune(ctx, 'Bad Request', 400);
+    if (price === '') {
+        return fortune(ctx, 'Bad Request: Items', 400);
     }
+    if (date === '' || typeof date !== 'string') {
+        return fortune(ctx, 'Bad Request: Items', 400);
+    }
+    ordersList.unshift({...ctx.request.body, id: idGenerator()});
 
     return fortune(ctx, null, 204);
+});
+
+router.get('/api/orderList', async (ctx, next) => {
+    return fortune(ctx, ordersList);
+});
+
+router.delete('/api/deleteOrderList', async(ctx, next) => {
+    ordersList.pop()
+    ctx.response.status = 204;
+    // return fortune(ctx, ordersList);
 });
 
 app.use(router.routes())

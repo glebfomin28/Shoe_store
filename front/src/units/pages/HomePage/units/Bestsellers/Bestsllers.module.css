@@ -1,0 +1,54 @@
+.hit {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    width: 870px;
+    overflow: hidden;
+}
+
+.hit__title {
+    margin: 25px 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.hit__list {
+    margin: auto;
+    height: 100%;
+    display: flex;
+    transition: .6s;
+}
+
+/*actions*/
+.hit__left, .hit__right{
+    position: absolute;
+    z-index: 25;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 0 8px 1px rgba(24, 21, 21, 0.4);
+    font-size: 20px;
+    color: #000000;
+    transition: scale, opacity, 0.4s;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.hit__left {
+    padding: 0 2px 4px 0;
+    top: 240px;
+    left: 100px;
+}
+
+.hit__right {
+    padding: 0 0 4px 2px;
+    top: 240px;
+    right: 100px;
+}
+
+.hit__left:hover, .hit__right:hover {
+    scale: 1.1;
+    opacity: 1;
+}

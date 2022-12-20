@@ -1,8 +1,9 @@
 .preloader {
-    margin: auto;
+    margin: 20px auto;
     position: relative;
     width: 30px;
     height: 30px;
+    text-align: center;
 }
 .preloader span {
     border: 0;

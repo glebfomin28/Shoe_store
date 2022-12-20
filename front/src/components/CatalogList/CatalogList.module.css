@@ -1,4 +1,6 @@
 .catalog {
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
+    width: 860px;
 }
