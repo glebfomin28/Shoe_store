@@ -30,14 +30,19 @@ export const dataApi = createApi({
             query: () =>  '/orderList',
             keepUnusedDataFor: 5,
         }),
+
         deleteOrderList: build.mutation({
             query: () => ({
                 url: `/deleteOrderList`,
                 method: 'DELETE',
             })
         }),
-
-
+        getCoincidenceList: build.query({
+            query: (obj) =>  `/itemsList/${obj}`
+        }),
+        getFiltersList: build.query({
+            query: () =>  `/filters`
+        })
     })
 })
 
@@ -48,5 +53,7 @@ export const {
   useGetInfoItemQuery,
   useAddOrderMutation,
   useGetOrderListQuery,
-  useDeleteOrderListMutation
+  useDeleteOrderListMutation,
+  useGetCoincidenceListQuery,
+  useGetFiltersListQuery,
 } = dataApi;

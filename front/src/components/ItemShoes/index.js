@@ -5,7 +5,6 @@ import {useDispatch, useSelector} from "react-redux";
 import {SELECTOR_LIKES_ITEMS, setIdItem, setLikesList} from "../../store/reducers";
 import noLike from '../../img/emptyFavorite.png';
 import likeIcon from '../../img/redFavorite.png';
-import addInCart from '../../img/addCartWhite.png';
 
 export const ItemShoes = ({ info }) => {
 
@@ -32,14 +31,15 @@ export const ItemShoes = ({ info }) => {
     setNiceImg(false)
   }
 
-  const addItemInLikeList = () => {
+  const addItemInLikeList = (e) => {
+    e.stopPropagation()
     d(setLikesList(info))
     setLike(p => !p)
   }
   return (
     <>
       {niceImg?
-        <div className={styles.item}>
+        <div className={styles.item} onClick={goToOrder}>
           <div className={styles.item__imgBlock}>
             <img
               className={styles.item__img}
@@ -51,16 +51,13 @@ export const ItemShoes = ({ info }) => {
           <div className={styles.item__info}>
             <div className={styles.item__name}>{info.title}</div>
             {info.oldPrice? <div className={styles.item__oldPrice}>{info.oldPrice} ₽</div> : null}
-            <div
-              className={styles.item__button}
-              onClick={goToOrder}
-            >
+            <div className={styles.item__button}>
               {info.price} ₽
-              <img
-                src={addInCart}
-                className={styles.item__button__icon}
-                alt=''
-              />
+              {/*<img*/}
+              {/*  src={addInCart}*/}
+              {/*  className={styles.item__button__icon}*/}
+              {/*  alt=''*/}
+              {/*/>*/}
             </div>
 
             <img

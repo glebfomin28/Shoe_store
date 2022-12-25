@@ -22,10 +22,8 @@ export const Description = ({data, idItem, isSuccess}) => {
   const [amount, setAmount] = useState(1)
   const [size, setSize] = useState(null)
   const [checkSize, setCheckSize] = useState(false)
-  const [indexImg, setIndexImg] = useState(0)
   const [like, setLike] = useState(false)
   const [addCart, setAddCart] = useState(false)
-
 
   useEffect(() => {
     const findItem = likesList.map(el => el.id).indexOf(idItem);
@@ -37,8 +35,10 @@ export const Description = ({data, idItem, isSuccess}) => {
     setAmount(1)
   }, [size])
 
+
   useEffect(() => {
     if (isSuccess) {
+      setSize(null)
       onCheckSize(data, setSize, setCheckSize)
     }
   }, [idItem, data])
@@ -68,29 +68,18 @@ export const Description = ({data, idItem, isSuccess}) => {
     setAddCart(false)
   }
 
-  const handleClickLeft = () => {
-    if (indexImg === 0) {
-      setIndexImg(data.images.length - 1)
-    } else  setIndexImg(p => p - 1)
-  }
-
-  const handleClickRight = () => {
-    if (indexImg === data.images.length - 1) {
-      setIndexImg(0)
-    } else  setIndexImg(p => p + 1)
-  }
-
   const addItemInLikeList = () => {
     d(setLikesList(data))
     setLike(p => !p)
   }
 
   const itemDescription = [
-    {name:"Сезон", value: data.season},
+    {name:"Сезон", value: data.season.join(", ")},
     {name:"Пол", value: data.sex},
     {name:"Бренд", value: data.manufacturer},
-    {name:"Цвет", value: data.color},
-    {name:"Категория", value: data.reason},
+    {name:"Цвет", value: data.color.join(", ")},
+    {name:"Категория", value: data.division.join(", ")},
+    {name:"Повод", value: data.reason.join(", ")},
     {name:"Длина каблука", value: data.heelSize},
   ]
 
@@ -115,8 +104,8 @@ export const Description = ({data, idItem, isSuccess}) => {
           )}})
       }
 
-      {checkSize? (
-        <div className={styles.item__row__actions} >
+      { checkSize && size !== null ? (
+        <div className={styles.description__action} >
           <p>Размеры в наличии:
             {data.sizes.map((el,idx) =>
               el.avalible? (
@@ -124,8 +113,8 @@ export const Description = ({data, idItem, isSuccess}) => {
                   key={idx}
                   className={
                     el.size === size
-                      ? styles.item__row__actions__size__active
-                      : styles.item__row__actions__size
+                      ? styles.description__action__size__active
+                      : styles.description__action__size
                   }
                   onClick={() => changeSetSize(el.size)}
                 >
@@ -133,48 +122,50 @@ export const Description = ({data, idItem, isSuccess}) => {
                       </span> ) : null
             )}
           </p>
-          <p className={styles.item__row__actions__margin}>
+          <p className={styles.description__action__amount}>
             Количество:
-            <span className={styles.item__row__actions__counter}
+            <span className={styles.description__action__amount__counter}
                   onClick={() => setAddCart(false) }
             >
-                    <button
-                      className={styles.item__row__actions__counter_controls}
-                      onClick={amount > 1? () => setAmount(p => p - 1) : null}
-                    >-</button>
-                    <span
-                      className={styles.item__row__actions__counter_num}
-                    >
-                      {amount}
-                    </span>
-                      <button
-                        className={styles.item__row__actions__counter_controls}
-                        onClick={amount < 10? () => setAmount(p => p + 1) : null}
-                      >+</button>
-                  </span>
+              <button
+                className={styles.description__action__amount__counter__controls}
+                onClick={amount > 1? () => setAmount(p => p - 1) : null}
+              >-</button>
+              <span
+                className={styles.description__action__amount__counter__num}
+              >
+                {amount}
+              </span>
+              <button
+                className={styles.description__action__amount__counter__controls}
+                onClick={amount < 10? () => setAmount(p => p + 1) : null}
+              >+</button>
+            </span>
           </p>
-        </div>) : <div className={styles.item__row__noSize}>Товара нет в наличии</div>
+        </div>
+        ) : (
+        <div className={styles.description__action__noSize}>Товара нет в наличии</div>)
       }
-      <div className={styles.item__price}>
-        <div className={styles.item__price__new}>{amount * data.price} ₽</div>
+      <div className={styles.description__price}>
+        <div className={styles.description__price__new}>{amount * data.price} ₽</div>
         {data.oldPrice?
-          <div className={styles.item__price__old}>{data.oldPrice} ₽</div>
+          <div className={styles.description__price__old}>{data.oldPrice} ₽</div>
           : null
         }
       </div>
       {!addCart? (
         <button
           className={
-            checkSize
-              ? styles.item__row__button
-              : styles.item__row__button__inactive
+            checkSize && size !== null
+              ? styles.description__button
+              : styles.description__button__inactive
           }
           onClick={checkSize? addToCart : null}
         > Добавить в корзину
         </button>
       ) : (
         <button
-          className={styles.item__row__button__buy}
+          className={styles.description__button__buy}
           onClick={addToCart}
         > Перейти в корзину
         </button>
@@ -182,7 +173,7 @@ export const Description = ({data, idItem, isSuccess}) => {
       }
       <img
         src={!like? noLike : likeIcon}
-        className={styles.item__row__like}
+        className={styles.description__like}
         alt='like'
         onClick={addItemInLikeList}
       />

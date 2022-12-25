@@ -1,0 +1,52 @@
+.similar {
+    margin: 50px auto;
+    width: 1145px;
+    overflow: hidden;
+}
+
+.similar__title {
+    margin: 0 0 15px 15px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.similar__slider {
+    display: flex;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.similar__sliderLeft,
+.similar__sliderRight {
+    position: absolute;
+    z-index: 25;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 0 8px 1px rgba(24, 21, 21, 0.4);
+    font-size: 20px;
+    color: #000000;
+    transition: scale, opacity, 0.4s;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.similar__sliderLeft {
+    bottom: 250px;
+    left: 10px;
+}
+
+.similar__sliderRight {
+    bottom: 250px;
+    right: 10px;
+}
+
+.similar__sliderLeft__off {
+    display: none;
+}
+
+.similar__sliderRight__off {
+    display: none;
+}

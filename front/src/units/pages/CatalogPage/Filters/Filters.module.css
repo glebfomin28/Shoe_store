@@ -1,0 +1,21 @@
+.filters {
+    margin: 8px 15px 0 0;
+    padding: 5px 0;
+    width: 300px;
+    min-height: 200px;
+    border-radius: 10px;
+    /*box-shadow: 0 0 6px 1px rgba(196, 196, 196, 0.85);*/
+    transition: 0.5s;
+}
+
+.filters__hr {
+    margin: 5px auto;
+    width: 85%;
+    color: rgba(208, 208, 208, 0.43);;
+}
+
+.filters__size {
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}

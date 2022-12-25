@@ -1,6 +1,8 @@
 import { configureStore, combineReducers } from '@reduxjs/toolkit'
 import {
-  cartItemsReducer, likesItemsReducer,
+  cartItemsReducer,
+  filtersItemsReducer,
+  likesItemsReducer,
   ordersItemsReducer,
   searchReducer,
   shoesStoreActionsReducer
@@ -24,6 +26,7 @@ const rootReducer = combineReducers({
   cartItems: cartItemsReducer,
   ordersItems: ordersItemsReducer,
   likesItems: likesItemsReducer,
+  filtersItems: filtersItemsReducer,
   [dataApi.reducerPath]: dataApi.reducer
 })
 
@@ -31,7 +34,7 @@ const rootReducer = combineReducers({
 
 const persistConfig = {
   key: 'root',
-  blacklist: ['search', 'shoesStoreActions', 'dataApi'],
+  blacklist: ['search', 'shoesStoreActions', 'dataApi', 'filtersItems'],
   storage,
 }
 

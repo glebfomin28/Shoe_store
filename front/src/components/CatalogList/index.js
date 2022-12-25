@@ -21,10 +21,22 @@ export const CatalogList = () => {
   const { data = [], isLoading, error } = useGetCatalogListQuery(catalogTabs)
   const [catalogData, setCatalogData] = useState([])
 
-  const numPages = Math.ceil(data.length / 12)
-
   const [prevItems, setPrevItems] = useState(0)
   const [nextItems, setNextItems] = useState(12)
+  // console.log(data)
+  // const collectData = (arr) => {
+  //   const arrTitle = []
+  //   arr.forEach(el => {
+  //     if (arrTitle.indexOf(el.sizes.size) === -1) {
+  //       arrTitle.push(el.sizes.size)
+  //     }
+  //   })
+  //   return console.log(arrTitle)
+  // }
+  //
+  // useEffect(() => {
+  //   if (!isLoading) collectData(data)
+  // }, [data])
 
   useEffect(() => {
     const Debounce = setTimeout(() => {
@@ -57,23 +69,28 @@ export const CatalogList = () => {
   return (
     <>
       {isLoading ? <Preloader/> : error ? navigate('*') : (
-          <div className={styles.catalog}>
+        <div className={styles.catalog}>
+          <div className={styles.catalog__head}>
+             Найдено {data.length} товаров
+          </div>
+          <hr className={styles.catalog__hr}/>
+          <div className={styles.catalog__list}>
             {catalogValue === '' ? printCatalogList : printCatalogListSearch}
           </div>
+
+          {catalogData.length === 0 && catalogValue !== ''
+            ? <div>Ничего не найдено</div> : null }
+
+          {data.length < 13 || catalogValue !== ''
+            ? null
+            : <LoadMore
+              lengthItems={data.length}
+              setPrevItems={setPrevItems}
+              setNextItems={setNextItems}
+            />}
+        </div>
       )}
-
-      {catalogData.length === 0 && catalogValue !== ''
-        ? <div>Ничего не найдено</div> : null }
-
-      {data.length < 13 || catalogValue !== ''
-        ? null
-        : <LoadMore
-            lengthItems={data.length}
-            setPrevItems={setPrevItems}
-            setNextItems={setNextItems}
-          />}
     </>
-
   );
 }
 

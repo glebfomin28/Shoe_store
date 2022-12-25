@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './HeaderImag.module.css';
-import hat from '../../../../img/banner.jpg';
+import hat from '../../../../../img/banner.jpg';
 
 export const HeaderImag = () => {
   return (

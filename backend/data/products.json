@@ -12,11 +12,12 @@
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/9c17ba1451ce41d98118ae890024542e_9366/Ultraboost_DNA_XXII_Shoes_Black_GX6849_41_detail.jpg"
 
     ],
-      "manufacturer": "adidas",
+      "season": ["Лето"],
       "sex": "Мужской",
-      "color": "Черный/угольный",
-      "reason": "Спортивная одежда",
-      "season": "Лето",
+      "manufacturer": "Adidas",
+      "color": ["Черный"],
+      "division": ["Кроссовки"],
+      "reason": ["Спорт", "Бег"],
       "price": 9500,
       "sizes": [
         {
@@ -45,11 +46,12 @@
       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7ed0855435194229a525aad6009a0497_9366/Superstar_Shoes_White_EG4958_01_standard.jpg",
       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8a358bcd5e3d453da815aad6009a249e_9366/Superstar_Shoes_White_EG4958_02_standard_hover.jpg"
     ],
-    "manufacturer": "adidas",
+    "season": ["Лето", "Весна"],
     "sex": "Женский, Мужской",
-    "color": "Белый",
-    "reason": "Кэжуал",
-    "season": "Весна, Лето",
+    "manufacturer": "Adidas",
+    "color": ["Белый"],
+    "division": ["Кроссовки", "Кеды"],
+    "reason": ["Спорт", "Повседневнсть", "Прогулки"],
     "price": 12000,
     "sizes": [
       {
@@ -78,11 +80,12 @@
       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/064e892e1cb54fccb74eaeed00c39c30_9366/FORUM_LOW_W_White_HP3372_01_standard.jpg",
       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0385fe033a6c4966b599aeed00c3c97a_9366/FORUM_LOW_W_White_HP3372_04_standard.jpg"
     ],
-    "manufacturer": "adidas",
+    "season": ["Лето", "Весна"],
     "sex": "Женский",
-    "color": "Белый, Розовый",
-    "reason": "Кэжуал",
-    "season": "Весна, Лето",
+    "manufacturer": "Adidas",
+    "color": ["Белый", "Розовый"],
+    "division": ["Кроссовки", "Кеды"],
+    "reason": ["Спорт", "Повседневнсть", "Прогулки"],
     "price": 12000,
     "sizes": [
       {
@@ -111,11 +114,12 @@
       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/bd8f7ae244774097a60bab0300bea8de_9366/Superstar_Shoes_Black_EF5394_01_standard.jpg",
       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7417706fc7024a7bb4f4ab0300bec1f6_9366/Superstar_Shoes_Black_EF5394_02_standard_hover.jpg"
     ],
+    "season": ["Лето", "Весна"],
     "sex": "Женский, Мужской",
-    "manufacturer": "adidas",
-    "color": "Черный",
-    "reason": "Кэжуал",
-    "season": "Весна, Лето",
+    "manufacturer": "Adidas",
+    "color": ["Черный"],
+    "division": ["Кроссовки", "Кеды"],
+    "reason": ["Спорт", "Повседневнсть", "Прогулки"],
     "price": 7800,
     "oldPrice": 9500,
     "sizes": [
@@ -141,10 +145,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/pharrell_williams_sneakers.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/pharrell_williams_sneakers_2.jpg"
     ],
-    "manufacturer": "adidas",
-    "color": "Желтый, Черный",
-    "reason": "Прогулка, Kэжуал",
-    "season": "Лето",
+    "season": ["Лето"],
+    "sex": "Женский, Мужской",
+    "manufacturer": "Adidas",
+    "color": ["Черный", "Желтый"],
+    "division": ["Кроссовки", "Кеды"],
+    "reason": ["Спорт", "Повседневнсть", "Прогулки"],
     "price": 8999,
     "sizes": [
       {
@@ -164,11 +170,12 @@
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/princess_shoes.jpg"
     ],
+    "season": ["Лето"],
     "sex": "Женский",
     "manufacturer": "Dolce & Gabbana",
-    "color": "Фиолетовый",
-    "reason": "Высока мода",
-    "season": "Лето",
+    "color": ["Фиолетовый"],
+    "division": ["Туфли"],
+    "reason": ["Высока мода"],
     "heelSize": "7 см.",
     "price": 9400,
     "sizes": [
@@ -189,11 +196,12 @@
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/shoes_with_windows.jpg"
     ],
+    "season": ["Лето"],
     "sex": "Женский",
     "manufacturer": "Dolce & Gabbana",
-    "color": "Черный",
-    "reason": "Высока мода",
-    "season": "Лето",
+    "color": ["Черный"],
+    "division": ["Туфли"],
+    "reason": ["Высока мода"],
     "heelSize": "8 см.",
     "price": 9000,
     "sizes": [
@@ -218,11 +226,12 @@
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/insect_sneakers.jpg"
     ],
+    "season": ["Лето", "Весна"],
     "sex": "Женский",
     "manufacturer": "Dolce & Gabbana",
-    "color": "Серый",
-    "reason": "Кэжуал, прогулки",
-    "season": "Лето, Весна",
+    "color": ["Серый"],
+    "division": ["Кеды"],
+    "reason": ["Повседневность", "Прогулки"],
     "price": 6500,
     "sizes": [
       {
@@ -247,11 +256,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/outgoing_shoes.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/outgoing_shoes_2.jpg"
     ],
+    "season": ["Лето"],
     "sex": "Женский",
     "manufacturer": "Dolce & Gabbana",
-    "color": "Черный, золотой",
-    "reason": "Высокая мода",
-    "season": "Лето",
+    "color": ["Черный"],
+    "division": ["Туфли"],
+    "reason": ["Высока мода"],
     "heelSize": "8 см.",
     "price": 5500,
     "oldPrice": 6500,
@@ -282,12 +292,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/empress's_slippers.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/empress's_slippers_2.jpg"
     ],
+    "season": ["Лето"],
     "sex": "Женский",
     "manufacturer": "Dolce & Gabbana",
-    "color": "Бардо",
-    "material": "Ткань",
-    "reason": "Высокая мода",
-    "season": "Лето, Весна",
+    "color": ["Белый"],
+    "division": ["Туфли"],
+    "reason": ["Высока мода"],
     "price": 3000,
     "oldPrice": 3500,
     "sizes": [
@@ -316,11 +326,12 @@
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sneakers_from_the_market.jpg"
     ],
+    "season": ["Лето"],
     "sex": "Женский, Мужской",
     "manufacturer": "Dolce & Gabbana",
-    "color": "Черный",
-    "reason": "Спорт",
-    "season": "Лето",
+    "color": ["Белый"],
+    "division": ["Кеды"],
+    "reason": ["Высока мода"],
     "price": 8700,
     "oldPrice": 9500,
     "sizes": [
@@ -332,7 +343,7 @@
         "size": "39",
         "avalible": false
       },
-       {
+      {
         "size": "39",
         "avalible": false
       },
@@ -353,11 +364,12 @@
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/colorful_sneakers.jpg"
     ],
+    "season": ["Лето"],
     "sex": "Женский",
     "manufacturer": "Gucci",
-    "color": "Белый, Черный, Золотой",
-    "reason": "Кэжуал, Прогулки",
-    "season": "Спорт, Весна, Осень",
+    "color": ["Белый", "Черный"],
+    "division": ["Кроссовки"],
+    "reason": ["Повседневность","Прогулки"],
     "price": 15200,
     "sizes": [
       {
@@ -381,11 +393,12 @@
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/transparent_boots.jpg"
     ],
+    "season": ["Осень"],
     "sex": "Женский",
     "manufacturer": "Chanel",
-    "color": "Прозрачный",
-    "reason": "Высокая мода",
-    "season": "Осень",
+    "color": ["Прозрачный", "Черный"],
+    "division": ["Сапоги"],
+    "reason": ["Высокая мода","Прогулки"],
     "heelSize": "3 см.",
     "price": 8000,
     "sizes": [
@@ -411,12 +424,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/shiny_boots.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/shiny_boots_2.jpg"
     ],
+    "season": ["Зима","Осень"],
     "sex": "Женский",
     "manufacturer": "Chanel",
-    "color": "Серый",
-    "material": "Кожа",
-    "reason": "Высокая мода",
-    "season": "Осень",
+    "color": ["Серый"],
+    "division": ["Сапоги"],
+    "reason": ["Высокая мода"],
     "heelSize": "3 см.",
     "price": 14000,
     "sizes": [
@@ -426,7 +439,7 @@
       },
       {
         "size": "39",
-        "avalible": false
+        "avalible": true
       }
     ]
   },
@@ -438,11 +451,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/shoes_like_carrie.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/shoes_like_carrie_2.jpg"
     ],
+    "season": ["Лето"],
     "sex": "Женский",
     "manufacturer": "Manolo Blahnik",
-    "color": "Синий",
-    "reason": "Высокая мода",
-    "season": "Лето",
+    "color": ["Синий"],
+    "division": ["Туфли"],
+    "reason": ["Высокая мода"],
     "heelSize": "8 см.",
     "price": 16500,
     "sizes": [
@@ -465,11 +479,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sneakers_from_oksimiron_2.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sneakers_from_oksimiron_3.jpg"
     ],
+    "season": ["Лето"],
     "sex": "Мужской",
     "manufacturer": "Reebok",
-    "color": "Серый, Желтый",
-    "reason": "Спорт",
-    "season": "Лето",
+    "color": ["Серый"],
+    "division": ["Кроссовки", "Кеды"],
+    "reason": ["Повседневность", "Прогулки"],
     "price": 13000,
     "oldPrice": 13900,
     "sizes": [
@@ -490,11 +505,12 @@
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/tufli_labuten.jpg"
     ],
+    "season": ["Лето"],
     "sex": "Женский",
     "manufacturer": "Christian Louboutin",
-    "color": "Черный",
-    "reason": "Высокая мода",
-    "season": "Лето",
+    "color": ["Черный", "Красный"],
+    "division": ["Туфли"],
+    "reason": ["Высокая мода"],
     "heelSize": "9 см.",
     "price": 26000,
     "sizes": [
@@ -516,11 +532,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/spiked_shoes.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/spiked_shoes_2.jpg"
     ],
+    "season": ["Лето"],
     "sex": "Женский",
     "manufacturer": "Christian Louboutin",
-    "color": "Красный",
-    "reason": "Высокая мода",
-    "season": "Лето",
+    "color": ["Черный"],
+    "division": ["Туфли"],
+    "reason": ["Высокая мода"],
     "heelSize": "9 см.",
     "price": 21300,
     "sizes": [
@@ -542,11 +559,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/сlassic_sneakers.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/сlassic_sneakers_2.jpg"
     ],
+    "season": ["Лето"],
     "sex": "Женский, Мужской",
     "manufacturer": "Vans",
-    "color": "Черный",
-    "reason": "Спорт, Кэжуал",
-    "season": "Лето",
+    "color": ["Черный"],
+    "division": ["Кеды"],
+    "reason": ["Повседневность", "Прогулки", "Кэжуал"],
     "price": 1400,
     "oldPrice": 1800,
     "sizes": [
@@ -571,11 +589,12 @@
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/new_balance_sneakers.jpg"
     ],
+    "season": ["Весна","Лето"],
     "sex": "Женский, Мужской",
     "manufacturer": "New Balance",
-    "color": "Фиолетовый",
-    "reason": "Спорт",
-    "season": "Лето",
+    "color": ["Фиолетовый"],
+    "division": ["Кроссовки"],
+    "reason": ["Повседневность", "Прогулки", "Кэжуал"],
     "price": 11500,
     "oldPrice": 13400,
     "sizes": [
@@ -597,11 +616,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sneakers_with_fur.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sneakers_with_fur_2.jpg"
     ],
+    "season": ["Зима", "Осень"],
     "sex": "Женский, Мужской",
+    "color": ["Серый"],
+    "division": ["Кроссовки"],
+    "reason": ["Повседневность", "Прогулки", "Кэжуал"],
     "manufacturer": "New Balance",
-    "color": "Темно-салатовый",
-    "reason": "Спорт",
-    "season": "Лето",
     "price": 8500,
     "sizes": [
       {
@@ -622,13 +642,14 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sneakers_for_girls.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sneakers_for_girls_2.jpg"
     ],
+    "season": ["Весна", "Лето"],
+    "color": ["Белый", "Розовый"],
+    "division": ["Кроссовки"],
+    "reason": ["Повседневность", "Прогулки", "Кэжуал"],
     "sex": "Женский",
     "manufacturer": "New Balance",
-    "color": "Белый",
-    "material": "Кожа",
-    "reason": "Спорт",
-    "season": "Лето",
-    "price": 5600,
+    "price": 7590,
+    "oldPrice": 9890,
     "sizes": [
       {
         "size": "36",
@@ -647,13 +668,12 @@
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sneakers_for_little_girls.jpg"
     ],
+    "season": ["Зима", "Осень"],
+    "color": ["Розовый"],
+    "division": ["Кроссовки"],
+    "reason": ["Повседневность", "Прогулки", "Кэжуал"],
     "sex": "Женский",
     "manufacturer": "New Balance",
-    "color": "Розовый",
-    "material": "Кожа",
-    "reason": "Спорт",
-    "season": "Лето",
-    "heelSize": "2 см.",
     "price": 5800,
     "sizes": [
       {
@@ -675,11 +695,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/nude_shoes_2.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/nude_shoes_3.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Бежевый"],
+    "division": ["Туфли"],
+    "reason": ["Высокая мода"],
     "sex": "Женский",
     "manufacturer": "ASOS",
-    "color": "Бежевый",
-    "reason": "Высокая мода",
-    "season": "Лето",
     "heelSize": "7 см.",
     "price": 6000,
     "sizes": [
@@ -700,11 +721,12 @@
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/hunter's_boots.jpg"
     ],
+    "season": ["Зима", "Осень"],
+    "color": ["Песочный"],
+    "division": ["Ботинки"],
+    "reason": ["Природа", "Прогулки"],
     "sex": "Мужской",
     "manufacturer": "Timberland",
-    "color": "Песочный",
-    "reason": "Спорт",
-    "season": "Осень",
     "heelSize": "1 см.",
     "price": 7000,
     "sizes": [
@@ -726,11 +748,12 @@
       "https://cdn1.ozone.ru/s3/multimedia-i/wc1000/6027310086.jpg",
       "https://cdn1.ozone.ru/s3/multimedia-f/wc1000/6027310083.jpg"
     ],
+    "season": ["Зима", "Осень"],
+    "color": ["Черный"],
+    "division": ["Ботинки"],
+    "reason": ["Природа", "Прогулки"],
     "sex": "Мужской",
     "manufacturer": "BERKUT.IV",
-    "color": "Черный",
-    "reason": "Спорт",
-    "season": "Зима",
     "heelSize": "1 см.",
     "price": 3210,
     "oldPrice": 4500,
@@ -753,12 +776,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/huntress_boots.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/huntress_boots_2.jpg"
     ],
-    "like": false,
+    "season": ["Весна","Осень"],
+    "color": ["Черный"],
+    "division": ["Сапоги"],
+    "reason": ["Природа", "Охота", "Рыбалка"],
     "sex": "Мужской",
     "manufacturer": "Hunter",
-    "color": "Черный",
-    "reason": "Охота, Рыбалка, Природа",
-    "season": "Осень",
     "heelSize": "2 см.",
     "price": 8000,
     "oldPrice": 14000,
@@ -781,10 +804,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/pumps.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/pumps_2.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Красный"],
+    "division": ["Туфли"],
+    "reason": ["Высокая мода"],
     "sex": "Женский",
     "manufacturer": "Estro",
-    "reason": "Высокая мода",
-    "season": "Лето",
     "heelSize": "9 см.",
     "price": 13200,
     "sizes": [
@@ -809,11 +834,12 @@
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/rufous.jpg"
     ],
+    "season": ["Весна", "Осень"],
+    "color": ["Оранжевый"],
+    "division": ["Туфли"],
+    "reason": ["Высокая мода"],
     "sex": "Женский",
     "manufacturer": "ALDO",
-    "color": "Оранжевый",
-    "reason": "Высокая мода",
-    "season": "Лето",
     "heelSize": "9 см.",
     "price": 4800,
     "sizes": [
@@ -834,11 +860,12 @@
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/ribbed_dior.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Черный"],
+    "division": ["Туфли"],
+    "reason": ["Высокая мода"],
     "sex": "Женский",
     "manufacturer": "Dior",
-    "color": "Черный",
-    "reason": "Высокая мода",
-    "season": "Лето",
     "heelSize": "4 см.",
     "price": 6900,
     "sizes": [
@@ -860,11 +887,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/lace_up_shoes.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/lace_up_shoes_2.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Черный", "Серый"],
+    "division": ["Туфли"],
+    "reason": ["Высокая мода"],
     "sex": "Женский",
     "manufacturer": "Dior",
-    "color": "Черный",
-    "reason": "Высокая мода",
-    "season": "Лето",
     "heelSize": "8 см.",
     "price": 7000,
     "sizes": [
@@ -886,11 +914,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/fishing_net.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/fishing_net_2.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Бежевый"],
+    "division": ["Лоферы"],
+    "reason": ["Высокая мода", "Повседневность"],
     "sex": "Женский",
     "manufacturer": "Dior",
-    "color": "Бежевый",
-    "reason": "Высокая мода",
-    "season": "Лето",
     "heelSize": "2 см.",
     "price": 5000,
     "sizes": [
@@ -911,11 +940,12 @@
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/love.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Черный"],
+    "division": ["Туфли"],
+    "reason": ["Высокая мода", "Повседневность"],
     "sex": "Женский",
     "manufacturer": "Dior",
-    "color": "Черный",
-    "reason": "Высокая мода",
-    "season": "Лето",
     "heelSize": "7 см.",
     "price": 8000,
     "sizes": [
@@ -936,11 +966,12 @@
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/firebird_slippers.jpg"
     ],
+    "season": ["Весна", "Лето"],
+    "color": ["Черный", "Красный", "Золотой"],
+    "division": ["Туфли"],
+    "reason": ["Высокая мода"],
     "sex": "Женский",
     "manufacturer": "Dior",
-    "color": "Черный, Красный, Золотой",
-    "reason": "Высокая мода",
-    "season": "Лето",
     "heelSize": "8 см.",
     "price": 7900,
     "sizes": [
@@ -966,11 +997,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/shoes_with_wings.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/shoes_with_wings_2.jpg"
     ],
+    "season": ["Весна", "Лето"],
+    "color": ["Белый", "Серый"],
+    "division": ["Туфли"],
+    "reason": ["Высокая мода"],
     "sex": "Женский",
     "manufacturer": "Zanotti",
-    "color": "Серый",
-    "reason": "Высокая мода",
-    "season": "Лето",
     "heelSize": "10 см.",
     "price": 5300,
     "sizes": [
@@ -992,11 +1024,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/boots_for_real_men.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/boots_for_real_men_2.jpg"
     ],
+    "season": ["Весна", "Осень"],
+    "color": ["Черный", "Золотой"],
+    "division": ["Ботинки", "Кеды"],
+    "reason": ["Высокая мода", "Прогулки"],
     "sex": "Мужской",
     "manufacturer": "Zanotti",
-    "color": "Черный",
-    "reason": "Спорт, Прогулки",
-    "season": "Лето, Осень",
     "price": 4500,
     "oldPrice": 6300,
     "sizes": [
@@ -1026,12 +1059,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/more_wings.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/more_wings_2.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Черный", "Серый"],
+    "division": ["Туфли"],
+    "reason": ["Высокая мода"],
     "sex": "Женский",
     "manufacturer": "Zanotti",
-    "color": "Черный",
-    "material": "Бархат",
-    "reason": "Высокая мода",
-    "season": "Лето",
     "heelSize": "9 см.",
     "price": 9600,
     "oldPrice": 12600,
@@ -1050,12 +1083,13 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sultan's_shoes.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sultan's_shoes_2.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Черный"],
+    "division": ["Туфли"],
+    "reason": ["Высокая мода"],
     "sex": "Мужской",
     "manufacturer": "ALEXANDER MCQUEEN",
-    "color": "Черный",
-    "reason": "Высокая мода",
-    "season": "Лето",
-    "heelSize": "2 см.",
+    "heelSize": "1 см.",
     "price": 6000,
     "oldPrice": 7450,
     "sizes": [
@@ -1077,11 +1111,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/zebra_sneakers.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/zebra_sneakers_2.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Черный"],
+    "division": ["Кеды"],
+    "reason": ["Прогулки", "Повседневность"],
     "sex": "Женский, Мужской",
     "manufacturer": "OFF-WHITE",
-    "color": "Черный",
-    "reason": "Спорт",
-    "season": "Лето",
     "price": 4200,
     "sizes": [
       {
@@ -1102,11 +1137,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/regular_sneakers.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/regular_sneakers_2.jpg"
     ],
+    "season": ["Весна","Лето"],
+    "color": ["Белый"],
+    "division": ["Кроссовки"],
+    "reason": ["Прогулки", "Повседневность"],
     "sex": "Женский, Мужской",
     "manufacturer": "SWEAR",
-    "color": "Белый",
-    "reason": "Спорт",
-    "season": "Лето",
     "heelSize": "4 см.",
     "price": 6200,
     "sizes": [
@@ -1132,11 +1168,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/flip-flops_with_embossed_logo.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/flip-flops_with_embossed_logo_2.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Белый"],
+    "division": ["Сланцы"],
+    "reason": ["Отдых"],
     "sex": "Мужской",
     "manufacturer": "GIVENCHY",
-    "color": "Черный",
-    "reason": "Спорт, Отдых",
-    "season": "Лето",
     "price": 500,
     "oldPrice": 700,
     "sizes": [
@@ -1161,11 +1198,12 @@
     "images": [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Blackcowboyboots.jpg/250px-Blackcowboyboots.jpg"
     ],
+    "season": ["Весна", "Лето", "Осень"],
+    "color": ["Коричневый"],
+    "division": ["Сапоги"],
+    "reason": ["Высокая мода", "Повседневность", "Природа"],
     "sex": "Мужской",
     "manufacturer": "JIMMY CHOO",
-    "color": "Коричневый",
-    "reason": "Высокая мода",
-    "season": "Осень",
     "heelSize": "3 см.",
     "price": 25990,
     "oldPrice": 27000,
@@ -1188,12 +1226,13 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/pink_rebel.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/pink_rebel_2.jpg"
     ],
+    "season": ["Зима"],
+    "color": ["Розовый"],
+    "division": ["Ботинки"],
+    "reason": ["Высокая мода", "Повседневность"],
     "sex": "Мужской",
     "manufacturer": "GUIDI",
-    "color": "Розовый",
-    "reason": "Высокая мода",
-    "season": "Осень",
-    "heelSize": "3 см.",
+    "heelSize": "2 см.",
     "price": 6800,
     "oldPrice": 7200,
     "sizes": [
@@ -1223,11 +1262,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/nude.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/nude_2.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Бежевый"],
+    "division": ["Кроссовки"],
+    "reason": ["Высокая мода", "Повседневность", "Кежуал"],
     "sex": "Мужской",
     "manufacturer": "GUCCI",
-    "color": "Бежевый",
-    "reason": "Высокая мода, Кежуал",
-    "season": "Лето",
     "price": 36400,
     "sizes": [
       {
@@ -1248,12 +1288,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/dream_loafers.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/dream_loafers_2.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Черный"],
+    "division": ["Лоферы"],
+    "reason": ["Высокая мода", "Повседневность"],
     "sex": "Мужской",
     "manufacturer": "SERGIO ROSSI",
-    "color": "Черный",
-    "material": "Кожа",
-    "reason": "Высокая мода",
-    "season": "Лето",
     "price": 1100,
     "oldPrice": 2900,
     "sizes": [
@@ -1279,11 +1319,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/balenciaga.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/balenciaga_2.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Черный", "Розовый", "Белый"],
+    "division": ["Кроссовки"],
+    "reason": ["Прогулки", "Повседневность"],
     "sex": "Женский, Мужской",
     "manufacturer": "BALENCIAGA",
-    "color": "Белый, Розовый, Черный",
-    "reason": "Спорт",
-    "season": "Лето",
     "heelSize": "5 см.",
     "price": 3400,
     "sizes": [
@@ -1305,11 +1346,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/neodesign.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/neodesign_2.jpg"
     ],
-    "sex": "Женский, Мужской",
+    "season": ["Весна", "Осень"],
+    "color": ["Белый"],
+    "division": ["Ботильоны"],
+    "reason": ["Высоая мода" ,"Прогулки"],
+    "sex": "Женский",
     "manufacturer": "REIKE NEN",
-    "color": "Белый",
-    "reason": "Высокая мода",
-    "season": "Осень",
     "heelSize": "6 см.",
     "price": 16000,
     "sizes": [
@@ -1331,11 +1373,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/lace-up_ankle_boots.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/lace-up_ankle_boots_2.jpg"
     ],
-    "sex": "Женский, Мужской",
+    "season": ["Весна", "Осень"],
+    "color": ["Песочный"],
+    "division": ["Ботильоны"],
+    "reason": ["Высоая мода"],
+    "sex": "Женский",
     "manufacturer": "OFF-WHITE",
-    "color": "Коричневый",
-    "reason": "Прогулка",
-    "season": "Осень",
     "heelSize": "5 см.",
     "price": 26000,
     "sizes": [
@@ -1357,11 +1400,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/backless.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/backless_2.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Розовый"],
+    "division": ["Босоножки"],
+    "reason": [ "Отдых", "Прогулка"],
     "sex": "Женский",
     "manufacturer": "MANSUR GAVRIEL",
-    "color": "Розовый",
-    "reason": "Прогулка",
-    "season": "Лето",
     "heelSize": "4 см.",
     "price": 4000,
     "oldPrice": 5000,
@@ -1384,11 +1428,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sandals_keira.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sandals_keira_2.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Бежевый", "Разноцветный"],
+    "division": ["Босоножки"],
+    "reason": [ "Отдых", "Прогулка"],
     "sex": "Женский",
     "manufacturer": "DOLCE & GABBANA",
-    "color": "Разноцветные",
-    "reason": "Прогулка",
-    "season": "Лето",
     "heelSize": "3 см.",
     "price": 7600,
     "oldPrice": 12000,
@@ -1399,7 +1444,7 @@
       },
       {
         "size": "35",
-        "avalible": false
+        "avalible": true
       }
     ]
   },
@@ -1411,11 +1456,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sandals_myer.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sandals_myer_2.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Черный"],
+    "division": ["Босоножки"],
+    "reason": [ "Отдых", "Прогулка"],
     "sex": "Женский",
     "manufacturer": "PAUL ANDREW",
-    "color": "Черный",
-    "reason": "Прогулка",
-    "season": "Лето",
     "heelSize": "4 см.",
     "price": 14000,
     "sizes": [
@@ -1437,11 +1483,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/elasticated_sandals.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/elasticated_sandals_2.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Серебряный"],
+    "division": ["Босоножки"],
+    "reason": [ "Отдых", "Прогулка"],
     "sex": "Женский",
     "manufacturer": "ALCHIMIA DI BALLIN",
-    "color": "Серебряный",
-    "reason": "Прогулка",
-    "season": "Лето",
     "heelSize": "4 см.",
     "price": 6300,
     "sizes": [
@@ -1459,11 +1506,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/space_sneakers.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/space_sneakers_2.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Черный", "Белый"],
+    "division": ["Кроссовки", "Кеды"],
+    "reason": [ "Отдых", "Прогулка"],
     "sex": "Женский",
     "manufacturer": "Nº21",
-    "color": "Черно-белый",
-    "reason": "Спорт",
-    "season": "Лето",
     "heelSize": "3 см.",
     "price": 5700,
     "sizes": [
@@ -1485,11 +1533,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/hairy_hooves.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/hairy_hooves_2.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Розовый"],
+    "division": ["Туфли"],
+    "reason": [ "Отдых", "Прогулка"],
     "sex": "Женский",
     "manufacturer": "MARNI",
-    "color": "Розовый",
-    "reason": "Высокая мода",
-    "season": "Лето",
     "heelSize": "5 см.",
     "price": 3000,
     "sizes": [
@@ -1511,11 +1560,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/grandma's_flip_flops.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/grandma's_flip_flops_2.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Бежевый"],
+    "division": ["Сланцы", "Шлепанцы"],
+    "reason": ["Отдых", "Прогулка"],
     "sex": "Женский, Мужской",
     "manufacturer": "MICHEL VIVIEN",
-    "color": "Бежевый",
-    "reason": "Прогулка",
-    "season": "Лето",
     "price": 1000,
     "oldPrice": 1500,
     "sizes": [
@@ -1537,10 +1587,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/flip_flops_with_straps.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/flip_flops_with_straps_2.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Бежевый", "Разноцветный"],
+    "division": ["Сланцы", "Шлепанцы"],
+    "reason": ["Отдых", "Прогулка"],
     "sex": "Женский, Мужской",
     "manufacturer": "TORY BURCH",
-    "color": "Бежевый",
-    "reason": "Прогулка",
     "price": 900,
     "oldPrice": 1200,
     "sizes": [
@@ -1567,11 +1619,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/slipons.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/slipons_2.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Бежевый", "Разноцветный"],
+    "division": ["Слипоны", "Шлепанцы"],
+    "reason": ["Отдых", "Прогулка"],
     "sex": "Мужской",
     "manufacturer": "ALBUM DI FAMIGLIA",
-    "color": "Черный",
-    "reason": "Прогулка",
-    "season": "Лето",
     "price": 1200,
     "oldPrice": 3500,
     "sizes": [
@@ -1592,11 +1645,12 @@
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/superhero_sneakers.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Белый"],
+    "division": ["Кеды"],
+    "reason": ["Повседневность", "Прогулка"],
     "sex": "Женский, Мужской",
     "manufacturer": "Vans",
-    "color": "Белый",
-    "reason": "Спорт, Кэжуал",
-    "season": "Лето",
     "price": 6400,
     "oldPrice": 7900,
     "sizes": [
@@ -1626,12 +1680,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/futuristic_sneakers.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/futuristic_sneakers_2.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Белый"],
+    "division": ["Кроссовки"],
+    "reason": ["Спорт", "Прогулка"],
     "sex": "Мужской",
     "manufacturer": "NIKE",
-    "color": "Белый",
-    "material": "Пластик",
-    "reason": "Спорт",
-    "season": "Лето",
     "heelSize": "2 см.",
     "price": 9300,
     "sizes": [
@@ -1653,11 +1707,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/complex_geometry.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/complex_geometry_2.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Черный"],
+    "division": ["Босоножки"],
+    "reason": ["Высокая мода"],
     "sex": "Женский",
     "manufacturer": "JACQUEMUS",
-    "color": "Черный",
-    "reason": "Высокая мода",
-    "season": "Лето",
     "heelSize": "6 см.",
     "price": 6500,
     "sizes": [
@@ -1679,11 +1734,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/boots-pipes.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/boots-pipes_2.jpg"
     ],
+    "season": ["Весна", "Осень"],
+    "color": ["Синий"],
+    "division": ["Сапоги"],
+    "reason": ["Высокая мода"],
     "sex": "Женский",
     "manufacturer": "MARC ELLIS",
-    "color": "Синий",
-    "reason": "Высокая мода",
-    "season": "Осень",
     "heelSize": "5 см.",
     "price": 9400,
     "sizes": [
@@ -1705,11 +1761,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/ankle_boots.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/ankle_boots_2.jpg"
     ],
+    "season": ["Осень"],
+    "color": ["Черный"],
+    "division": ["Ботильоны"],
+    "reason": ["Высокая мода"],
     "sex": "Женский",
     "manufacturer": "GIANVITO ROSSI",
-    "color": "Черный",
-    "reason": "Высокая мода",
-    "season": "Осень",
     "heelSize": "6 см.",
     "price": 6200,
     "sizes": [
@@ -1719,7 +1776,7 @@
       },
       {
         "size": "38",
-        "avalible": false
+        "avalible": true
       }
     ]
   },
@@ -1731,11 +1788,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/mesh_soul.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/mesh_soul_2.jpg"
     ],
+    "season": ["Осень"],
+    "color": ["Черный"],
+    "division": ["Туфли"],
+    "reason": ["Высокая мода"],
     "sex": "Женский",
     "manufacturer": "JIMMY CHOO",
-    "color": "Черный",
-    "reason": "Высокая мода",
-    "season": "Осень",
     "heelSize": "5 см.",
     "price": 2110,
     "sizes": [
@@ -1757,11 +1815,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/pink_tigress.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/pink_tigress_2.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Розовый"],
+    "division": ["Туфли"],
+    "reason": ["Высокая мода"],
     "sex": "Женский",
     "manufacturer": "Nº21",
-    "color": "Розовый",
-    "reason": "Высокая мода",
-    "season": "Лето",
     "heelSize": "4 см.",
     "price": 4500,
     "oldPrice": 5500,
@@ -1784,11 +1843,12 @@
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/rope_shoes.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/rope_shoes_2.jpg"
     ],
+    "season": ["Лето"],
+    "color": ["Черный"],
+    "division": ["Туфли"],
+    "reason": ["Высокая мода"],
     "sex": "Женский",
     "manufacturer": "KAT MACONIE",
-    "color": "Черный",
-    "reason": "Высокая мода",
-    "season": "Лето",
     "heelSize": "7 см.",
     "price": 1200,
     "sizes": [
@@ -1798,4 +1858,5 @@
       }
     ]
   }
+
 ]

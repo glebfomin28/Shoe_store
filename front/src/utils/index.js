@@ -4,3 +4,7 @@ export const onCheckSize = (arr, setSize, setCheckSize) => {
       setSize(arr.sizes[i].size)
       return setCheckSize(true)
     }}}
+
+export const counterSearchItems = (num) => {
+  if (num) {}
+}

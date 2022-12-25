@@ -1,0 +1,39 @@
+.body, .bodyActive {
+    position: relative;
+    padding: 5px 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+.bodyActive {
+    background-color: rgba(220, 220, 220, 0.5);
+}
+
+.body:hover {
+    background-color: rgba(220, 220, 220, 0.5);
+}
+
+.body__color {
+    margin: 10px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+
+.body__name {
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+
+.body__add {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 30px;
+}
+
+.body__remove {
+    display: none;
+}

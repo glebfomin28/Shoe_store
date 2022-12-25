@@ -1,5 +1,21 @@
 .catalog {
+    text-align: center;
+}
+
+.catalog__head {
     margin: auto;
+    width: 820px;
+}
+
+.catalog__hr {
+    margin: auto;
+    width: 820px;
+    background-color: rgba(248, 248, 248, 0.91);
+    color: rgba(117, 117, 117, 0.25);
+}
+.catalog__list {
+    margin: auto;
+    padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
     width: 860px;

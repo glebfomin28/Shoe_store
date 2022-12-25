@@ -1,0 +1,26 @@
+
+.brand, .brandAdd {
+    position: relative;
+    padding: 6px 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.brandAdd {
+    background-color: rgba(220, 220, 220, 0.5);
+}
+
+.brand:hover {
+    background-color: rgba(220, 220, 220, 0.5);
+}
+
+.brand__add {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 30px;
+}
+
+.brand__remove {
+    display: none;
+}

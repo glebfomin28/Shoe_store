@@ -27,12 +27,7 @@ export const CatalogTabs = () => {
 
   return (
     <div className={styles.filter}>
-      {isLoading?
-          <Preloader/>
-        : error ?
-          navigate('*')
-        : printFilterCell
-      }
+      {isLoading? <Preloader/> : error ? navigate('*') : printFilterCell}
     </div>
   );
 }

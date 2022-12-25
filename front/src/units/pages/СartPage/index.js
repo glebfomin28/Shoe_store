@@ -22,7 +22,7 @@ export const CartPage = () => {
   }, [])
 
   return (
-    <div >
+    <div className={styles.cart}>
       <h2 className={styles.cart__center}>Корзина</h2>
       {cartList.length !== 0?
         <>

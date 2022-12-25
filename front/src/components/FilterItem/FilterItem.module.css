@@ -1,0 +1,33 @@
+
+.body {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.body__title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.body__icon {
+    width: 26px;
+    transition: 0.5s;
+}
+
+
+.body__actions {
+    margin: 0 10px;
+    text-align: left;
+    max-height: 250px;
+    overflow: scroll;
+    transition: 0.5s;
+}
+
+
+.body__hr {
+    margin: 5px auto;
+    width: 85%;
+    color: rgba(208, 208, 208, 0.43);
+}

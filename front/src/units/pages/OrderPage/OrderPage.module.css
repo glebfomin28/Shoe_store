@@ -1,11 +1,12 @@
 
 
 .item {
-    margin: 15px auto;
+    margin: 120px auto 0;
+    padding-bottom: 30px;
+    height: 560px;
     position: relative;
-    width: 100%;
     display: flex;
-    justify-content: space-between;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.29);
 }
 
 /**/

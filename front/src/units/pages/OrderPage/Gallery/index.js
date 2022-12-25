@@ -1,14 +1,18 @@
-import React, { useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import styles from './Gallery.module.css';
 import upIcon  from '../../../../img/up.png'
 import downIcon from '../../../../img/down.png'
 
 
 export const Gallery = ({images}) => {
-
   const [activeImag, setActiveImag] = useState(0)
   const [move, setMove] = useState(0)
   const maxMove = (images.length - 4) * -100
+
+  useEffect(() => {
+    setActiveImag(0)
+    setMove(0)
+  }, [images])
 
   const handleClickUp = () => {
     if (move < 0)

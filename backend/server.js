@@ -7,9 +7,11 @@ const koaBody = require('koa-body');
 
 const categories = JSON.parse(fs.readFileSync('./data/categories.json'));
 const items = JSON.parse(fs.readFileSync('./data/products.json'));
+const filters = JSON.parse(fs.readFileSync('./data/filters.json'));
 const topSaleIds = [100, 41, 57, 31, 34, 101, 102, 73];
 // const moreCount = 12;
 const ordersList = []
+
 
 const itemBasicMapper = item => ({
     id: item.id,
@@ -18,6 +20,13 @@ const itemBasicMapper = item => ({
     price: item.price,
     images: item.images,
     oldPrice: item.oldPrice,
+
+    manufacturer: item.manufacturer,
+    heelSize: item.heelSize,
+    color: item.color,
+    division: item.division,
+    reason: item.reason
+
 });
 
 const idGenerator = () => {
@@ -29,6 +38,13 @@ const idGenerator = () => {
 const randomNumber = (start, stop) => {
     return Math.floor(Math.random() * (stop - start + 1)) + start;
 }
+
+const containsItem = (arr1, arr2)  => {
+    const test1 = arr2.every(arr2Item => arr1.includes(arr2Item))
+    const test2 = arr1.every(arr1Item => arr2.includes(arr1Item))
+    return test1 || test2
+}
+
 
 const fortune = (ctx, body = null, status = 200) => {
     // Uncomment for delay
@@ -90,6 +106,26 @@ router.get('/api/items/:id', async (ctx, next) => {
     return fortune(ctx, item);
 });
 
+router.get('/api/itemsList/:coincidence', async (ctx, next) => {
+    const coincidence = JSON.parse(ctx.params.coincidence);
+    const ignoreId = coincidence.id === undefined ? 0 : Number(coincidence.id)
+    const category = coincidence.category === undefined ? 0 : Number(coincidence.category)
+    const division = coincidence.division.length === 0 ? 0 : coincidence.division
+
+    if (!coincidence) {
+        return fortune(ctx, 'Not found', 404);
+    }
+    const filtered = items
+      .filter(o => ignoreId === 0 || o.id !== ignoreId)
+      .filter(o => category === 0 || o.category === category)
+      // .filter(o => containsItem(o.reason, reason))
+      .filter(o => containsItem(o.division, division))
+      .map(itemBasicMapper);
+
+
+    return fortune(ctx, filtered);
+});
+
 
 router.post('/api/order', async (ctx, next) => {
     const { owner: { phone, address }, items, price, date } = ctx.request.body;
@@ -116,6 +152,12 @@ router.post('/api/order', async (ctx, next) => {
 router.get('/api/orderList', async (ctx, next) => {
     return fortune(ctx, ordersList);
 });
+
+router.get('/api/filters', async (ctx, next) => {
+
+    return fortune(ctx, filters);
+});
+
 
 router.delete('/api/deleteOrderList', async(ctx, next) => {
     ordersList.pop()

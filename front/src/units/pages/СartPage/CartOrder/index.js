@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import styles from './СartOrder.module.css';
-import {deleteCartList, SELECTOR_CART_ITEMS, setOrderList} from "../../../../store/reducers";
+import {deleteCartList, SELECTOR_CART_ITEMS} from "../../../../store/reducers";
 import {useDispatch, useSelector} from "react-redux";
 import {Preloader} from "../../../../components";
 import {useAddOrderMutation} from "../../../../store/RTKQuery";
@@ -16,6 +16,7 @@ export const CartOrder = ({ setSuccess }) => {
 
   const [addOrder, {isLoading, isError, isSuccess }] = useAddOrderMutation()
   const dateOrder = `${new Date().getDate()}.${new Date().getMonth() + 1}.${new Date().getFullYear()}`
+
   const jsonOrderObj = {
     "owner": {
       "phone": phone,

@@ -1,3 +1,3 @@
 export * from './NavLinks'
-export * from './HeaderImag'
+export * from '../../pages/HomePage/units/HeaderImag'
 export * from './UserActions'

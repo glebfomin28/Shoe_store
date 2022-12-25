@@ -1,49 +1,53 @@
 .item {
-    margin: 0 18px 32px;
+    margin: 0 12px 24px;
     position: relative;
     text-align: left;
-    min-width: 250px;
-    min-height: 380px;
-    box-shadow: 0 0 4px 1px rgba(72, 71, 71, 0.33);
+    min-width: 260px;
+    min-height: 360px;
+    box-shadow: 0 0 2px 0.5px rgba(72, 71, 71, 0.33);
 
     border-radius: 5px;
     font-size: 18px;
-    transition: 0.9s;
+    transition: 0.2s;
+    cursor: pointer;
 }
 
+.item:hover {
+    box-shadow: 0 0 2px 0.5px rgb(211, 49, 49);
+}
 
 .item__imgBlock {
     padding: 5px;
     position: relative;
     text-align: center;
-    height: 62%;
+    height: 260px;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
 }
 
 .item__img {
     max-width: 240px;
-    max-height: 100%;
+    max-height: 260px;
 }
 
 .item__info {
     position: relative;
     width: 250px;
-    height: 31%;
+    height: 100px;
     text-align: center;
 }
 
 .item__name {
-    margin: 5px;
-    font-size: 22px;
-    font-weight: 450;
+    margin: 0 15px;
+    font-size: 19px;
+    font-weight: 400;
     color: #2b3131;
 }
 
 .item__oldPrice {
     position: absolute;
     bottom: 45px;
-    left: 100px;
+    left: 40px;
     font-size: 20px;
     font-weight: 700;
     color: rgba(63, 63, 63, 0.75);
@@ -53,20 +57,14 @@
 .item__button {
     position: absolute;
     left: 20px;
-    bottom: 0;
-    padding: 6px 15px;
-    width: 100px;
-    background-color: #d33131;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 18px;
+    bottom: 15px;
+    font-size: 24px;
     font-weight: 700;
-    color: white;
+    color: #000000;
     text-align: right;
     transition: opacity 0.3s;
 }
 
-.item__button:hover,
 .item__info__like:hover {
     opacity: 0.8
 }
@@ -83,7 +81,7 @@
 .item__info__like {
     padding: 3px;
     position: absolute;
-    bottom: 3px;
+    bottom: 15px;
     right: 15px;
     width: 35px;
     cursor: pointer;

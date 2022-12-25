@@ -12,25 +12,30 @@ export const Bestsellers = () => {
 
   useEffect(() => {
     if (step > 0) {
-      setStep(-(data.length - 3) * 288)
-    } else if (step < -(data.length - 3) * 288) {
+      setStep(-(data.length - 4) * 288)
+    } else if (step < -(data.length - 4) * 288) {
       setStep(0)
     }
   }, [step])
 
   useEffect(() => {
     const Interval = setInterval(() =>
-      goRight(), 6000)
+      autoSlider(), 6000)
     return () => clearInterval(Interval)
   }, [])
 
+
   const goLeft = () => {
-    setStep(p => p + 285)
+    setStep(p => p + 288)
   }
   const goRight = () => {
-    setStep(p => p - 285)
+    setStep(p => p - 288)
   }
-
+  const autoSlider = () => {
+    if (step !== -(data.length - 4) * 288) {
+      goRight()
+    } else goLeft()
+  }
   const printItemsShoesList = data.map(el =>
     <ItemShoes key={el.id} info={el}/>
   )
